@@ -1,4 +1,4 @@
-﻿import { courseData } from '@/data/lessons';
+import { courseData } from '@/data/lessons';
 import Link from 'next/link';
 
 export default function Home() {
