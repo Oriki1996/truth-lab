@@ -1,5 +1,6 @@
 ﻿'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function BiasLab() {
   const [step, setStep] = useState(0);
@@ -28,6 +29,9 @@ export default function BiasLab() {
             <button onClick={() => setStep(0)} className="mt-8 text-blue-600 font-bold underline">נסה כותרת אחרת</button>
           </div>
         )}
+        <div className="mt-12 border-t pt-6">
+          <Link href="/" className="inline-block text-blue-600 font-bold font-sans">→ חזרה ללוח הבקרה</Link>
+        </div>
       </div>
     </main>
   );
