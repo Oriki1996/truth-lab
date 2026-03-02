@@ -11,21 +11,30 @@ export default function Home() {
             {courseData.title}
           </h1>
           <p className="text-gray-400 text-xl max-w-2xl mx-auto font-light leading-relaxed">
-            ברוכים הבאים למרחב הניסויים האינטראקטיבי. כאן נהפוך תיאוריה לפרקטיקה ונתנסה בכלים של לוחמת מידע.
+            ברוכים הבאים למרחב הניסויים האינטראקטיבי. כאן נלמד את התאוריה דרך חוויה מעשית ונתנסה בכלים של לוחמת מידע.
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          {/* כלי 1: בוט או לא */}
-          <Link href="/bot-or-not" className="group p-8 bg-gray-800 rounded-2xl border border-gray-700 hover:border-blue-500 transition-all shadow-xl">
-            <h2 className="text-3xl font-bold mb-4">בוט או אדם? 🤖</h2>
-            <p className="text-gray-400">זהה את הטקטיקות של "חוות הבוטים" ממקדוניה ונסה להבחין בין פרופיל מזויף לאדם אמיתי.</p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          {/* כלי 1 */}
+          <Link href="/bot-or-not" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all shadow-xl">
+            <div className="text-4xl mb-4">🤖</div>
+            <h2 className="text-2xl font-bold mb-3">בוט או אדם?</h2>
+            <p className="text-slate-400 text-sm">בחן את יכולתך לזהות פרופילים מזויפים ברשתות החברתיות המנסים להשפיע על דעתך.</p>
           </Link>
 
-          {/* כלי 2: אשף SIFT */}
-          <Link href="/sift-wizard" className="group p-8 bg-gray-800 rounded-2xl border border-gray-700 hover:border-yellow-500 transition-all shadow-xl">
-            <h2 className="text-3xl font-bold mb-4">אשף ה-SIFT 🛡️</h2>
-            <p className="text-gray-400">תרגל את מודל ה-SIFT של מייק קולפילד על מקרה הבוחן של בית החולים בעזה.</p>
+          {/* כלי 2 */}
+          <Link href="/sift-wizard" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-yellow-500 transition-all shadow-xl">
+            <div className="text-4xl mb-4">🛡️</div>
+            <h2 className="text-2xl font-bold mb-3">אשף ה-SIFT</h2>
+            <p className="text-slate-400 text-sm">תרגל את מודל ה-SIFT לבדיקת עובדות בזמן אמת, מבוסס על מקרה הבוחן של בית החולים בעזה.</p>
+          </Link>
+
+          {/* כלי 3 החדש */}
+          <Link href="/bot-farm" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-red-500 transition-all shadow-xl">
+            <div className="text-4xl mb-4">🏭</div>
+            <h2 className="text-2xl font-bold mb-3">מנהל חוות הבוטים</h2>
+            <p className="text-slate-400 text-sm">למד את התאוריה מאחורי תעשיית השקרים של מקדוניה, ואז נהל חוות בוטים משלך כדי להרוויח קליקים.</p>
           </Link>
         </div>
       </div>
