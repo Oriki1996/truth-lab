@@ -8,34 +8,56 @@ export default function Home() {
       <div className="max-w-6xl mx-auto">
         <header className="mb-16 text-center">
           <h1 className="text-6xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 tracking-tight">
-            {courseData.title}
+            אקדמיית האמת: לוחמת מידע
           </h1>
           <p className="text-gray-400 text-xl max-w-2xl mx-auto font-light leading-relaxed">
-            ברוכים הבאים למרחב הניסויים האינטראקטיבי. כאן נלמד את התאוריה דרך חוויה מעשית ונתנסה בכלים של לוחמת מידע.
+            ברוכים הבאים למרחב הניסויים. עברו בין הנושאים, קראו את התיאוריה, והתנסו במעבדות כדי להפוך ל"תא חיסוני" שמגן על החברה מנגיף השקרים.
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {/* כלי 1 */}
-          <Link href="/bot-or-not" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-blue-500 transition-all shadow-xl">
-            <div className="text-4xl mb-4">🤖</div>
-            <h2 className="text-2xl font-bold mb-3">בוט או אדם?</h2>
-            <p className="text-slate-400 text-sm">בחן את יכולתך לזהות פרופילים מזויפים ברשתות החברתיות המנסים להשפיע על דעתך.</p>
-          </Link>
+        <div className="space-y-16">
+          
+          {/* נושא 1 */}
+          <section>
+            <h2 className="text-3xl font-black text-yellow-400 mb-6 border-b border-gray-800 pb-2">נושא 1: הפסיכולוגיה של השקר 🧠</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Link href="/sift-wizard" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-yellow-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2">אשף ה-SIFT</h3>
+                <p className="text-slate-400 text-sm">הבנת ההטיות שלנו ותרגול מודל הבדיקה באמצעות מקרה בית החולים בעזה.</p>
+              </Link>
+              <div className="p-6 bg-slate-900/50 rounded-2xl border border-slate-800 opacity-50 cursor-not-allowed">
+                <h3 className="text-xl font-bold mb-2 text-slate-500">מעבדת הטיות (בקרוב)</h3>
+                <p className="text-slate-600 text-sm">גלה אילו רגשות גורמים לך לשתף פייק ניוז ללא בדיקה.</p>
+              </div>
+            </div>
+          </section>
 
-          {/* כלי 2 */}
-          <Link href="/sift-wizard" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-yellow-500 transition-all shadow-xl">
-            <div className="text-4xl mb-4">🛡️</div>
-            <h2 className="text-2xl font-bold mb-3">אשף ה-SIFT</h2>
-            <p className="text-slate-400 text-sm">תרגל את מודל ה-SIFT לבדיקת עובדות בזמן אמת, מבוסס על מקרה הבוחן של בית החולים בעזה.</p>
-          </Link>
+          {/* נושא 2 */}
+          <section>
+            <h2 className="text-3xl font-black text-blue-400 mb-6 border-b border-gray-800 pb-2">נושא 2: מכונת התעמולה 🤖</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Link href="/bot-farm" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2">מנהל חוות הבוטים</h3>
+                <p className="text-slate-400 text-sm">הקם חוות בוטים והבן את המניע הכלכלי מאחורי תעשיית השקרים של מקדוניה.</p>
+              </Link>
+              <Link href="/bot-or-not" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-blue-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2">בוט או אדם?</h3>
+                <p className="text-slate-400 text-sm">האם תצליח לזהות מתי אלגוריתם מנסה להשפיע על דעתך?</p>
+              </Link>
+            </div>
+          </section>
 
-          {/* כלי 3 החדש */}
-          <Link href="/bot-farm" className="group p-8 bg-slate-800 rounded-3xl border border-slate-700 hover:border-red-500 transition-all shadow-xl">
-            <div className="text-4xl mb-4">🏭</div>
-            <h2 className="text-2xl font-bold mb-3">מנהל חוות הבוטים</h2>
-            <p className="text-slate-400 text-sm">למד את התאוריה מאחורי תעשיית השקרים של מקדוניה, ואז נהל חוות בוטים משלך כדי להרוויח קליקים.</p>
-          </Link>
+          {/* נושא 3 */}
+          <section>
+            <h2 className="text-3xl font-black text-purple-400 mb-6 border-b border-gray-800 pb-2">נושא 3: עידן ה-Deepfake 👁️</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Link href="/deepfake-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500 transition-all shadow-[0_0_15px_rgba(168,85,247,0.15)]">
+                <h3 className="text-xl font-bold mb-2 text-purple-300">מעבדת זיהוי פלילי חזותי (חדש!)</h3>
+                <p className="text-slate-400 text-sm">למד כיצד AI חוטף את החושים שלנו ונסה לזהות את הפגמים בוידאו מזויף.</p>
+              </Link>
+            </div>
+          </section>
+
         </div>
       </div>
     </main>
