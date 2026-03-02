@@ -1,6 +1,7 @@
 ﻿"use client";
 import { useState } from "react";
 import Link from "next/link";
+import { analyzeContent } from "@/utils/textAnalyzer";
 
 export default function RadarClient({ initialArticles }: { initialArticles: any[] }) {
   const [articles, setArticles] = useState(initialArticles);
@@ -45,7 +46,6 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
         }
       } 
       else if (engine === "newsapi") {
-        // המנוע החדש! פונה ל-API הפנימי שלנו שעוקף את חסימת ה-CORS
         const res = await fetch(`/api/news?q=${finalQuery}&lang=${language}`);
         if (res.ok) {
           const data = await res.json();
@@ -57,7 +57,7 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
               image: item.urlToImage || null,
               publishedAt: item.publishedAt,
               source: { name: item.source?.name || "NewsAPI" }
-            })).filter((item: any) => item.title !== "[Removed]"); // סינון מובנה לכתבות שהוסרו
+            })).filter((item: any) => item.title !== "[Removed]"); 
           }
         }
       }
@@ -111,7 +111,7 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
               </span>
               מערכת OSINT לזיהוי דיסאינפורמציה
             </h1>
-            <p className="text-slate-400">ארבעה מנועי חיפוש שונים לפילטור מידע בזמן אמת.</p>
+            <p className="text-slate-400">ארבעה מנועי חיפוש עם מנתח שפה סמנטי מובנה.</p>
           </div>
           <Link href="/" className="bg-slate-800 hover:bg-slate-700 text-white py-2 px-6 rounded-lg font-bold transition-all whitespace-nowrap">חזרה ללוח</Link>
         </header>
@@ -119,7 +119,6 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
         <div className="bg-slate-800 p-6 rounded-2xl border border-slate-600 mb-10 shadow-lg relative overflow-hidden">
           <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-l from-cyan-400 to-purple-500"></div>
           <form onSubmit={handleSearch} className="flex flex-col gap-4">
-            
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-right">
               <div className="flex flex-col gap-1">
                 <label className="text-sm font-bold text-cyan-400">מקור סריקה (Engine):</label>
@@ -181,36 +180,55 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
         ) : (
           <>
             <div className="space-y-8 mb-8">
-              {articles.slice(0, visibleCount).map((article: any, index: number) => (
-                <article key={index} className="bg-slate-800 rounded-3xl border border-slate-700 hover:border-cyan-500 transition-all shadow-xl overflow-hidden flex flex-col md:flex-row" dir={language === 'he' ? 'rtl' : 'ltr'}>
-                  {article.image && (
-                    <div className="md:w-1/3 h-48 md:h-auto overflow-hidden bg-slate-900 relative flex-shrink-0">
-                      <img src={article.image} alt="תמונה" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
-                    </div>
-                  )}
-                  <div className="p-6 flex flex-col justify-between w-full">
-                    <div>
-                      <div className="flex items-center gap-3 mb-3">
-                        <span className="bg-cyan-900/50 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">{article.source.name}</span>
-                        <span className="text-slate-400 text-xs">{new Date(article.publishedAt).toLocaleDateString('he-IL', { day: 'numeric', month: 'short', hour: '2-digit', minute:'2-digit' })}</span>
+              {articles.slice(0, visibleCount).map((article: any, index: number) => {
+                // קריאה למנתח הטקסט שלנו!
+                const analysis = analyzeContent(article.title, article.description || "");
+                
+                return (
+                  <article key={index} className="bg-slate-800 rounded-3xl border border-slate-700 hover:border-cyan-500 transition-all shadow-xl overflow-hidden flex flex-col md:flex-row" dir={language === 'he' ? 'rtl' : 'ltr'}>
+                    {article.image && (
+                      <div className="md:w-1/3 h-48 md:h-auto overflow-hidden bg-slate-900 relative flex-shrink-0 border-l border-slate-700">
+                        <img src={article.image} alt="תמונה" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                        {/* תצוגת ציון הסיכון על גבי התמונה */}
+                        {analysis.riskScore > 0 && (
+                          <div className="absolute top-4 left-4 bg-black/80 backdrop-blur-sm text-white text-xs font-black px-3 py-2 rounded-lg border border-red-500/50 flex flex-col items-center shadow-2xl">
+                            <span className="text-red-400 text-lg">{analysis.riskScore}%</span>
+                            <span className="uppercase text-[10px]">סיכון קליקבייט</span>
+                          </div>
+                        )}
                       </div>
-                      <h2 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 transition-colors">
-                        <a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
-                      </h2>
-                      {article.description && <p className="text-slate-400 text-sm line-clamp-3 leading-relaxed">{article.description}</p>}
+                    )}
+                    <div className="p-6 flex flex-col justify-between w-full">
+                      <div>
+                        <div className="flex items-center gap-3 mb-4 flex-wrap">
+                          <span className="bg-cyan-900/50 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-cyan-800">{article.source.name}</span>
+                          <span className="text-slate-400 text-xs">{new Date(article.publishedAt).toLocaleDateString('he-IL', { day: 'numeric', month: 'short', hour: '2-digit', minute:'2-digit' })}</span>
+                          
+                          {/* הזרקת התגיות (Badges) של הניתוח הסמנטי */}
+                          {analysis.badges.map((badge, bIdx) => (
+                            <span key={bIdx} className={`text-xs font-bold px-3 py-1 rounded-full border ${badge.color}`}>
+                              {badge.text}
+                            </span>
+                          ))}
+                        </div>
+                        <h2 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 transition-colors">
+                          <a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}</a>
+                        </h2>
+                        {article.description && <p className="text-slate-400 text-sm line-clamp-3 leading-relaxed">{article.description}</p>}
+                      </div>
+                      <div className="mt-6 pt-4 border-t border-slate-700 flex flex-wrap justify-between items-center gap-4" dir="rtl">
+                        <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-cyan-400 text-sm font-bold hover:underline">לכתבה המקורית &larr;</a>
+                        <Link 
+                          href={`/sift-wizard?title=${encodeURIComponent(article.title)}&source=${encodeURIComponent(article.source.name)}`}
+                          className="text-sm bg-purple-600 hover:bg-purple-700 text-white py-2 px-5 rounded-lg font-bold transition-all shadow-[0_0_10px_rgba(147,51,234,0.4)]"
+                        >
+                          🛡️ נתח במעבדת SIFT
+                        </Link>
+                      </div>
                     </div>
-                    <div className="mt-6 pt-4 border-t border-slate-700 flex flex-wrap justify-between items-center gap-4" dir="rtl">
-                      <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-cyan-400 text-sm font-bold hover:underline">לכתבה המקורית &larr;</a>
-                      <Link 
-                        href={`/sift-wizard?title=${encodeURIComponent(article.title)}&source=${encodeURIComponent(article.source.name)}`}
-                        className="text-sm bg-purple-600 hover:bg-purple-700 text-white py-2 px-5 rounded-lg font-bold transition-all shadow-[0_0_10px_rgba(147,51,234,0.4)]"
-                      >
-                        🛡️ העבר לניתוח במעבדת SIFT
-                      </Link>
-                    </div>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                );
+              })}
             </div>
             {visibleCount < articles.length && (
               <div className="text-center">
