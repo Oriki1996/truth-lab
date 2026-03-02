@@ -1,35 +1,57 @@
-import { courseData } from '@/data/lessons';
+﻿import { courseData } from '@/data/lessons';
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white p-8 md:p-16" dir="rtl">
-      <div className="max-w-4xl mx-auto">
-        <header className="mb-12 border-b pb-6">
-          <h1 className="text-4xl font-extrabold text-slate-900 leading-tight">
+    <main className="min-h-screen bg-slate-50 p-8 md:p-16" dir="rtl">
+      <div className="max-w-5xl mx-auto">
+        <header className="mb-16 border-b border-slate-200 pb-10">
+          <div className="inline-block bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold mb-4 font-sans uppercase tracking-widest">
+            Learning Lab
+          </div>
+          <h1 className="text-6xl font-black text-slate-900 leading-tight mb-4">
             {courseData.title}
           </h1>
-          <p className="text-slate-500 text-lg mt-2">מעבדת למידה אינטראקטיבית - אוניברסיטת חיפה</p>
+          <p className="text-slate-500 text-2xl max-w-2xl">
+            מרחב למידה אינטראקטיבי המשלב מחקר פסיכולוגי, ניתוח פוליטי וכלים לזיהוי מניפולציות בעידן הדיגיטלי.
+          </p>
         </header>
 
-        <div className="grid gap-6">
+        <div className="grid gap-8 md:grid-cols-2">
           {courseData.lessons.map((lesson) => (
-            <Link href={`/lesson/${lesson.id}`} key={lesson.id} className="block">
-              <section className="group p-6 rounded-2xl border border-slate-200 hover:bg-slate-50 transition-all cursor-pointer">
-                <div className="flex justify-between items-center mb-4">
-                  <span className="text-sm font-bold text-blue-600 tracking-wide uppercase">שיעור {lesson.id}</span>
-                  <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-400">טרם הושלם</span>
+            <Link href={`/lesson/${lesson.id}`} key={lesson.id} className="block group">
+              <section className="h-full p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative overflow-hidden">
+                {/* קישוט גרפי */}
+                <div className="absolute -top-10 -left-10 w-32 h-32 bg-blue-50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                
+                <div className="flex justify-between items-start mb-6">
+                  <span className="text-lg font-black text-blue-600 font-sans">0{lesson.id}</span>
+                  <span className="text-xs font-bold bg-slate-100 px-3 py-1 rounded-full text-slate-500 uppercase">Interactive</span>
                 </div>
-                <h2 className="text-2xl font-bold text-slate-800 mb-3 group-hover:text-blue-700 transition-colors">
+
+                <h2 className="text-3xl font-bold text-slate-800 mb-4 group-hover:text-blue-700 transition-colors">
                   {lesson.title}
                 </h2>
-                <ul className="list-disc list-inside text-slate-600 space-y-1">
-                  {lesson.topics.map((t, i) => <li key={i}>{t}</li>)}
-                </ul>
+                
+                <p className="text-slate-600 text-lg mb-6 leading-relaxed">
+                  {lesson.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {lesson.topics.map((topic, i) => (
+                    <span key={i} className="text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-lg font-medium">
+                      #{topic}
+                    </span>
+                  ))}
+                </div>
               </section>
             </Link>
           ))}
         </div>
+
+        <footer className="mt-20 text-center text-slate-400 font-medium">
+          <p>© 2026 {courseData.title} | אוניברסיטת חיפה</p>
+        </footer>
       </div>
     </main>
   );
