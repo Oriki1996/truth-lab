@@ -3,18 +3,32 @@ import { useState } from "react";
 import Link from "next/link";
 import { analyzeContent } from "@/utils/textAnalyzer";
 
+// פונקציית עזר לדירוג מקורות (Source Trust Index)
+const getSourceTrust = (sourceName: string) => {
+  const name = sourceName.toLowerCase();
+  const reliable = ['reuters', 'ap', 'bbc', 'associated press', 'bloomberg', 'npr', 'pbs', 'the guardian', 'wsj'];
+  const userGenerated = ['reddit', 'twitter', 'youtube', 'facebook', 'medium', 'blog', '4chan'];
+  const stateSponsored = ['rt', 'al jazeera', 'sputnik', 'xinhua', 'global times', 'presstv', 'tasnim'];
+
+  if (reliable.some(s => name.includes(s))) return { level: 'high', label: '🛡️ מקור רשמי', color: 'text-emerald-400 bg-emerald-900/30 border-emerald-500' };
+  if (stateSponsored.some(s => name.includes(s))) return { level: 'low', label: '🚨 מדינה/תעמולה', color: 'text-red-400 bg-red-900/30 border-red-500' };
+  if (userGenerated.some(s => name.includes(s))) return { level: 'medium', label: '💬 תוכן גולשים', color: 'text-amber-400 bg-amber-900/30 border-amber-500' };
+
+  return { level: 'unknown', label: '🔍 דורש אימות', color: 'text-slate-400 bg-slate-800 border-slate-600' };
+};
+
 export default function RadarClient({ initialArticles }: { initialArticles: any[] }) {
   const [articles, setArticles] = useState(initialArticles);
   const [isLoading, setIsLoading] = useState(false);
-  
-  // שינוי: מציג 50 כתבות מיד במקום 5
   const [visibleCount, setVisibleCount] = useState(50);
 
+  // States לסינון ומיון
   const [searchQuery, setSearchQuery] = useState("");
   const [engine, setEngine] = useState("gnews");
   const [region, setRegion] = useState("any"); 
   const [language, setLanguage] = useState("en"); 
   const [topic, setTopic] = useState("disinfo"); 
+  const [sortBy, setSortBy] = useState<'date' | 'risk'>('date'); // מיון חדש!
 
   const loadMore = () => setVisibleCount(prev => prev + 50);
 
@@ -41,7 +55,6 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
       if (engine === "gnews") {
         const API_KEY = process.env.NEXT_PUBLIC_GNEWS_API_KEY || "b982a6147d2ec5ee8a69e5087b9e4a87";
         const countryParam = region !== "any" ? `&country=${region}` : "";
-        // משיכת 50 כתבות
         const res = await fetch(`https://gnews.io/api/v4/search?q=${finalQuery}&lang=${language}${countryParam}&max=50&sortby=publishedAt&apikey=${API_KEY}`);
         if (res.ok) {
           const data = await res.json();
@@ -65,7 +78,6 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
         }
       }
       else if (engine === "reddit") {
-        // משיכת 50 כתבות מרדיט
         const res = await fetch(`https://www.reddit.com/search.json?q=${finalQuery}&sort=new&limit=50`);
         if (res.ok) {
           const data = await res.json();
@@ -103,6 +115,22 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
     setIsLoading(false);
   };
 
+  // עיבוד הכתבות (לפני מיון) - הוספת ניתוח טקסט ודירוג מקור
+  const processedArticles = articles.map(article => {
+    const analysis = analyzeContent(article.title, article.description || "");
+    const sourceTrust = getSourceTrust(article.source.name);
+    return { ...article, analysis, sourceTrust };
+  });
+
+  // מיון לפי התפריט
+  const sortedArticles = [...processedArticles].sort((a, b) => {
+    if (sortBy === 'risk') {
+      return b.analysis.riskScore - a.analysis.riskScore;
+    } else {
+      return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+    }
+  });
+
   return (
     <div className="min-h-screen bg-slate-900 text-white p-4 md:p-8 font-sans" dir="rtl">
       <div className="max-w-7xl mx-auto">
@@ -115,12 +143,12 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
               </span>
               רדאר דיסאינפורמציה עולמי
             </h1>
-            <p className="text-slate-400">ארבעה מנועי חיפוש סורקים כעת עד 50 כתבות מחודש אחורה.</p>
+            <p className="text-slate-400">ארבעה מנועי חיפוש, מנתח שפה סמנטי, ומדד דירוג מקורות אוטומטי.</p>
           </div>
           <Link href="/" className="bg-slate-800 hover:bg-slate-700 text-white py-2 px-6 rounded-lg font-bold transition-all border border-slate-600">חזרה ללוח</Link>
         </header>
 
-        {/* תפריט שליטה דביק - נשאר למעלה גם כשגוללים */}
+        {/* תפריט שליטה דביק */}
         <div className="sticky top-4 z-50 bg-slate-800/90 backdrop-blur-md p-6 rounded-2xl border border-cyan-500/50 mb-10 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
           <form onSubmit={handleSearch} className="flex flex-col gap-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-right">
@@ -178,24 +206,60 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
           </form>
         </div>
 
-        {/* תוצאות - תצוגת רשת קלפים (Grid) במקום רשימה ארוכה */}
-        {articles.length === 0 && !isLoading ? (
+        {/* אנימציית טעינה - השלדים החדשים! */}
+        {isLoading && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {[1, 2, 3, 4, 5, 6].map(i => (
+              <div key={i} className="flex flex-col bg-slate-800 rounded-3xl overflow-hidden border border-slate-700 animate-pulse h-[400px]">
+                <div className="h-48 bg-slate-700/50 w-full"></div>
+                <div className="p-6 flex flex-col gap-4 flex-1">
+                  <div className="h-4 bg-slate-700/50 rounded w-1/3"></div>
+                  <div className="h-6 bg-slate-600/50 rounded w-full"></div>
+                  <div className="h-6 bg-slate-600/50 rounded w-5/6"></div>
+                  <div className="mt-auto flex justify-between">
+                     <div className="h-8 bg-slate-700/50 rounded w-1/4"></div>
+                     <div className="h-8 bg-slate-700/50 rounded w-1/3"></div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* תוצאות סופיות */}
+        {!isLoading && sortedArticles.length === 0 ? (
           <div className="bg-slate-800 p-20 rounded-3xl text-center text-slate-400 border border-slate-700 text-xl">לא נמצאו כתבות. נסה לשנות מנוע סריקה או להרחיב את החיפוש.</div>
-        ) : (
+        ) : !isLoading && (
           <>
-            <div className="mb-4 flex justify-between items-center text-slate-400">
-              <span>מציג {Math.min(visibleCount, articles.length)} מתוך {articles.length} תוצאות אחרונות</span>
+            {/* כפתורי סינון חכמים */}
+            <div className="mb-6 flex flex-col sm:flex-row justify-between items-center bg-slate-800/50 p-4 rounded-xl border border-slate-700">
+              <span className="text-slate-400 font-bold">מציג {Math.min(visibleCount, sortedArticles.length)} מתוך {sortedArticles.length} תוצאות</span>
+              
+              <div className="flex items-center gap-2 mt-4 sm:mt-0 bg-slate-900 p-1 rounded-lg border border-slate-700">
+                <button 
+                  onClick={() => setSortBy('date')} 
+                  className={`px-4 py-2 rounded-md text-sm font-bold transition-all ${sortBy === 'date' ? 'bg-cyan-600 text-white' : 'text-slate-400 hover:text-white'}`}
+                >
+                  ⏳ הכי חדש
+                </button>
+                <button 
+                  onClick={() => setSortBy('risk')} 
+                  className={`px-4 py-2 rounded-md text-sm font-bold transition-all ${sortBy === 'risk' ? 'bg-red-600 text-white shadow-[0_0_10px_rgba(220,38,38,0.5)]' : 'text-slate-400 hover:text-white'}`}
+                >
+                  🔥 סיכון קליקבייט
+                </button>
+              </div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              {articles.slice(0, visibleCount).map((article: any, index: number) => {
-                const analysis = analyzeContent(article.title, article.description || "");
+              {sortedArticles.slice(0, visibleCount).map((article: any, index: number) => {
+                const analysis = article.analysis;
                 const isHighRisk = analysis.riskScore > 20;
+                const sourceTrust = article.sourceTrust;
                 
                 return (
                   <article key={index} className={`flex flex-col bg-slate-800 rounded-3xl transition-all hover:-translate-y-2 hover:shadow-2xl overflow-hidden border-2 ${isHighRisk ? 'border-red-900/50 hover:border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.1)]' : 'border-slate-700 hover:border-cyan-500'}`} dir={language === 'he' ? 'rtl' : 'ltr'}>
                     
-                    {/* תמונה עליונה קבועה בגודל */}
                     <div className="h-48 bg-slate-900 relative w-full border-b border-slate-700 overflow-hidden">
                       {article.image ? (
                         <img src={article.image} alt="תמונה" className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" />
@@ -205,12 +269,16 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
                       
                       {isHighRisk && (
                         <div className="absolute top-3 left-3 bg-red-600/90 text-white text-xs font-black px-3 py-1.5 rounded-lg shadow-lg backdrop-blur-md animate-pulse">
-                          {analysis.riskScore}% קליקבייט
+                          {analysis.riskScore}% סיכון מניפולציה
                         </div>
                       )}
+
+                      {/* תגית אמינות מקור על התמונה */}
+                      <div className={`absolute bottom-3 right-3 text-xs font-bold px-3 py-1.5 rounded-lg shadow-lg backdrop-blur-md border ${sourceTrust.color}`}>
+                        {sourceTrust.label}
+                      </div>
                     </div>
 
-                    {/* תוכן הכתבה - תופס את שאר המקום */}
                     <div className="p-6 flex flex-col flex-1 justify-between">
                       <div>
                         <div className="flex justify-between items-center mb-4 text-xs font-bold">
@@ -222,9 +290,8 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
                           <a href={article.url} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">{article.title}</a>
                         </h2>
                         
-                        {/* תגיות הניתוח */}
                         <div className="flex flex-wrap gap-2 mb-4">
-                          {analysis.badges.slice(0,2).map((badge, bIdx) => (
+                          {analysis.badges.slice(0,2).map((badge: any, bIdx: number) => (
                             <span key={bIdx} className={`text-[10px] font-bold px-2 py-1 rounded border ${badge.color}`}>
                               {badge.text}
                             </span>
@@ -232,14 +299,13 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
                         </div>
                       </div>
 
-                      {/* כפתורים למטה */}
                       <div className="mt-4 pt-4 border-t border-slate-700/50 flex justify-between items-center" dir="rtl">
                         <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-sm font-bold transition-colors">מקור &larr;</a>
                         <Link 
                           href={`/sift-wizard?title=${encodeURIComponent(article.title)}&source=${encodeURIComponent(article.source.name)}`}
                           className="text-sm bg-purple-600 hover:bg-purple-500 text-white py-2 px-4 rounded-xl font-bold transition-all shadow-lg"
                         >
-                          🛡️ SIFT
+                          🛡️ פתח תיק SIFT
                         </Link>
                       </div>
                     </div>
@@ -248,10 +314,10 @@ export default function RadarClient({ initialArticles }: { initialArticles: any[
               })}
             </div>
 
-            {visibleCount < articles.length && (
+            {visibleCount < sortedArticles.length && (
               <div className="text-center pb-10">
                 <button onClick={loadMore} className="bg-slate-800 hover:bg-slate-700 text-cyan-400 font-bold py-4 px-12 rounded-full transition-all border border-slate-600 shadow-xl text-lg">
-                  טען עוד כתבות מהחודש האחרון 👇
+                  טען עוד כתבות 👇
                 </button>
               </div>
             )}
