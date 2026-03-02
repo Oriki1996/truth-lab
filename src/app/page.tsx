@@ -19,16 +19,16 @@ export default function Home() {
           
           {/* נושא 1 */}
           <section>
-            <h2 className="text-3xl font-black text-yellow-400 mb-6 border-b border-gray-800 pb-2">נושא 1: הפסיכולוגיה של השקר 🧠</h2>
+            <h2 className="text-3xl font-black text-amber-500 mb-6 border-b border-gray-800 pb-2">נושא 1: הפסיכולוגיה של השקר 🧠</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/sift-wizard" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-yellow-500 transition-all shadow-lg">
-                <h3 className="text-xl font-bold mb-2">אשף ה-SIFT</h3>
-                <p className="text-slate-400 text-sm">הבנת ההטיות שלנו ותרגול מודל הבדיקה באמצעות מקרה בית החולים בעזה.</p>
+              <Link href="/bias-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+                <h3 className="text-xl font-bold mb-2 text-amber-400">מעבדת הטיות (חדש!)</h3>
+                <p className="text-slate-400 text-sm">גלה אילו רגשות גורמים לך לשתף פייק ניוז ללא בדיקה ואיך "ביטחון-יתר" עובד לרעתך.</p>
               </Link>
-              <div className="p-6 bg-slate-900/50 rounded-2xl border border-slate-800 opacity-50 cursor-not-allowed">
-                <h3 className="text-xl font-bold mb-2 text-slate-500">מעבדת הטיות (בקרוב)</h3>
-                <p className="text-slate-600 text-sm">גלה אילו רגשות גורמים לך לשתף פייק ניוז ללא בדיקה.</p>
-              </div>
+              <Link href="/sift-wizard" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2">אשף ה-SIFT</h3>
+                <p className="text-slate-400 text-sm">תרגול מודל הבדיקה לבלימת הפצת מידע כוזב, מבוסס על מקרה בית החולים בעזה.</p>
+              </Link>
             </div>
           </section>
 
@@ -51,8 +51,8 @@ export default function Home() {
           <section>
             <h2 className="text-3xl font-black text-purple-400 mb-6 border-b border-gray-800 pb-2">נושא 3: עידן ה-Deepfake 👁️</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/deepfake-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500 transition-all shadow-[0_0_15px_rgba(168,85,247,0.15)]">
-                <h3 className="text-xl font-bold mb-2 text-purple-300">מעבדת זיהוי פלילי חזותי (חדש!)</h3>
+              <Link href="/deepfake-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2">מעבדת זיהוי פלילי חזותי</h3>
                 <p className="text-slate-400 text-sm">למד כיצד AI חוטף את החושים שלנו ונסה לזהות את הפגמים בוידאו מזויף.</p>
               </Link>
             </div>
