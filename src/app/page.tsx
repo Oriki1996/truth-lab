@@ -17,11 +17,32 @@ export default function Home() {
 
         <div className="space-y-16">
           
+          {/* אזור חם - רדאר בזמן אמת */}
+          <section className="bg-gradient-to-r from-slate-900 to-cyan-900/20 p-8 rounded-3xl border border-cyan-900/50 shadow-[0_0_30px_rgba(6,182,212,0.1)] relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 blur-3xl rounded-full"></div>
+            <h2 className="text-3xl font-black text-cyan-400 mb-6 flex items-center gap-3">
+              <span className="relative flex h-4 w-4">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-4 w-4 bg-cyan-500"></span>
+              </span>
+              זירת התרחשויות (Live) 📡
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
+              <Link href="/live-radar" className="group p-6 bg-slate-800/80 backdrop-blur-sm rounded-2xl border border-cyan-800 hover:border-cyan-400 transition-all shadow-lg flex justify-between items-center">
+                <div>
+                  <h3 className="text-2xl font-bold mb-2 text-white">רדאר דיסאינפורמציה עולמי</h3>
+                  <p className="text-cyan-100/70 text-sm">מושך 5 כתבות אמיתיות מסוכנויות ידיעות בינלאומיות (מתעדכן אוטומטית כל שעתיים).</p>
+                </div>
+                <div className="text-4xl group-hover:scale-110 transition-transform">🌍</div>
+              </Link>
+            </div>
+          </section>
+
           {/* נושא 1 */}
           <section>
             <h2 className="text-3xl font-black text-amber-500 mb-6 border-b border-gray-800 pb-2">נושא 1: הפסיכולוגיה של השקר 🧠</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/bias-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-[0_0_15px_rgba(245,158,11,0.15)]">
+              <Link href="/bias-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-lg">
                 <h3 className="text-xl font-bold mb-2 text-amber-400">מעבדת הטיות</h3>
                 <p className="text-slate-400 text-sm">גלה אילו רגשות גורמים לך לשתף פייק ניוז ללא בדיקה ואיך "ביטחון-יתר" עובד לרעתך.</p>
               </Link>
@@ -62,8 +83,8 @@ export default function Home() {
           <section>
             <h2 className="text-3xl font-black text-teal-400 mb-6 border-b border-gray-800 pb-2">נושא 4: הקרב על המציאות 🛡️</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Link href="/echo-chamber" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all shadow-[0_0_15px_rgba(45,212,191,0.15)]">
-                <h3 className="text-xl font-bold mb-2 text-teal-400">הבריחה מחדר התהודה (חדש!)</h3>
+              <Link href="/echo-chamber" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all shadow-lg">
+                <h3 className="text-xl font-bold mb-2 text-teal-400">הבריחה מחדר התהודה</h3>
                 <p className="text-slate-400 text-sm">בחן את יכולתך לפרוץ את הבועה האלגוריתמית ולצרוך מידע מאוזן.</p>
               </Link>
             </div>
