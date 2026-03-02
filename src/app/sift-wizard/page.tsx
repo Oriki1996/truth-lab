@@ -28,20 +28,29 @@ const SIFT_STEPS = [
     options: ["ניתוח סרטונים וצילומי לווין", "הודאה של חמאס", "אין ראיות סותרות"],
     correctAnswer: 0,
     feedback: "מדויק. ניתוח פורנזי הראה שמדובר בשיגור כושל של רקטה."
+  },
+  {
+    id: "T",
+    title: "T - Trace (חזור להקשר)",
+    instruction: "בדוק את המקור המקורי כדי לראות אם ההקשר שונה.",
+    task: "מה הייתה התוצאה של פרסום המידע המוטעה הזה?",
+    options: ["המתנה רגועה", "ביטול פסגה מדינית ומחאות אלימות", "שיפור האמון בתקשורת"],
+    correctAnswer: 1,
+    feedback: "נכון. המהירות שבה המידע הפך לנרטיב עולמי גרמה לנזק ממשי."
   }
 ];
 
 export default function SIFTWizard() {
   const [stepIndex, setStepIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [isCorrect, setIsCorrect] = useState(null);
+  const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const currentStep = SIFT_STEPS[stepIndex];
 
-  useEffect(() => { if (currentStep?.timer) setTimeLeft(currentStep.timer); }, [stepIndex]);
+  useEffect(() => { if (currentStep?.timer) setTimeLeft(currentStep.timer); }, [stepIndex, currentStep]);
   useEffect(() => { if (timeLeft > 0) { const t = setTimeout(() => setTimeLeft(timeLeft - 1), 1000); return () => clearTimeout(t); } }, [timeLeft]);
 
-  const handleOptionClick = (i) => {
+  const handleOptionClick = (i: number) => {
     setSelectedOption(i);
     setIsCorrect(i === currentStep.correctAnswer);
   };
@@ -68,7 +77,7 @@ export default function SIFTWizard() {
           ) : (
             <div>
               <p className="text-xl mb-6">{currentStep.task}</p>
-              {currentStep.options.map((opt, i) => (
+              {currentStep.options?.map((opt: string, i: number) => (
                 <button key={i} disabled={selectedOption !== null} onClick={() => handleOptionClick(i)} 
                 className="block w-full text-right p-4 mb-3 rounded-lg border border-gray-600 hover:border-blue-500 bg-gray-800">{opt}</button>
               ))}
