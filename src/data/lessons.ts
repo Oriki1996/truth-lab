@@ -8,6 +8,7 @@ export interface Lesson {
   id: number;
   title: string;
   description: string;
+  topics: string[];
   quiz: Question[];
 }
 
@@ -18,6 +19,7 @@ export const courseData = {
       id: 1,
       title: "אמת וידע בעידן הדיגיטלי",
       description: "חקירת הפער בין ידע אובייקטיבי להבנייה חברתית של אמת.",
+      topics: ["אפיסטמולוגיה", "אמת vs אמונה", "JTB"],
       quiz: [
         {
           question: "מה מבדיל 'ידע' מ'אמונה' לפי הגישה האפיסטמולוגית הקלאסית?",
@@ -35,6 +37,7 @@ export const courseData = {
       id: 3,
       title: "מדוע אנו נכשלים בזיהוי שקרים?",
       description: "ניתוח הטיית ביטחון היתר על פי מחקרם של Lyons ועמיתיו (2021).",
+      topics: ["ביטחון יתר", "הטיות קוגניטיביות", "Lyons 2021"],
       quiz: [
         {
           question: "מהו הממצא המרכזי של Lyons (2021) לגבי יכולת זיהוי פייק ניוז?",
