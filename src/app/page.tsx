@@ -22,7 +22,7 @@ export default function Home() {
             <h2 className="text-3xl font-black text-amber-500 mb-6 border-b border-gray-800 pb-2">נושא 1: הפסיכולוגיה של השקר 🧠</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Link href="/bias-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-[0_0_15px_rgba(245,158,11,0.15)]">
-                <h3 className="text-xl font-bold mb-2 text-amber-400">מעבדת הטיות (חדש!)</h3>
+                <h3 className="text-xl font-bold mb-2 text-amber-400">מעבדת הטיות</h3>
                 <p className="text-slate-400 text-sm">גלה אילו רגשות גורמים לך לשתף פייק ניוז ללא בדיקה ואיך "ביטחון-יתר" עובד לרעתך.</p>
               </Link>
               <Link href="/sift-wizard" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-amber-500 transition-all shadow-lg">
@@ -54,6 +54,17 @@ export default function Home() {
               <Link href="/deepfake-lab" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-purple-500 transition-all shadow-lg">
                 <h3 className="text-xl font-bold mb-2">מעבדת זיהוי פלילי חזותי</h3>
                 <p className="text-slate-400 text-sm">למד כיצד AI חוטף את החושים שלנו ונסה לזהות את הפגמים בוידאו מזויף.</p>
+              </Link>
+            </div>
+          </section>
+
+          {/* נושא 4 */}
+          <section>
+            <h2 className="text-3xl font-black text-teal-400 mb-6 border-b border-gray-800 pb-2">נושא 4: הקרב על המציאות 🛡️</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <Link href="/echo-chamber" className="group p-6 bg-slate-800 rounded-2xl border border-slate-700 hover:border-teal-500 transition-all shadow-[0_0_15px_rgba(45,212,191,0.15)]">
+                <h3 className="text-xl font-bold mb-2 text-teal-400">הבריחה מחדר התהודה (חדש!)</h3>
+                <p className="text-slate-400 text-sm">בחן את יכולתך לפרוץ את הבועה האלגוריתמית ולצרוך מידע מאוזן.</p>
               </Link>
             </div>
           </section>
