@@ -1,7 +1,7 @@
 ﻿"use client";
 import { useState } from 'react';
 
-export default function Quiz({ questions }: { questions: any[] }) {
+export default function Quiz({ questions, lessonId }: { questions: any[], lessonId?: number }) {
   const [current, setCurrent] = useState(0);
   const [score, setScore] = useState(0);
   const [showFinal, setShowFinal] = useState(false);
