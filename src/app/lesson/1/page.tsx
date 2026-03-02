@@ -1,62 +1,36 @@
 ﻿"use client";
-import { useState } from 'react';
 import Link from 'next/link';
 import { courseData } from '@/data/lessons';
-import InfoModal from '@/app/components/InfoModal';
 import Quiz from '@/app/components/Quiz';
 
 export default function Lesson1() {
-  const [modalData, setModalData] = useState<{title: string, content: string} | null>(null);
-  
-  // משיכת נתוני שיעור 1 מהקובץ המרכזי
-  const lesson = courseData.lessons.find(l => l.id === 1);
-
-  if (!lesson) return <div className="p-8 text-center">השיעור לא נמצא...</div>;
+  const lesson = courseData.lessons[0];
 
   return (
-    <main className="min-h-screen bg-slate-50 p-8" dir="rtl">
-      <div className="max-w-3xl mx-auto">
-        <header className="mb-12">
-          <span className="text-blue-600 font-bold tracking-widest uppercase text-sm font-sans">שיעור {lesson.id}</span>
-          <h1 className="text-5xl font-black mb-4 text-slate-900 leading-tight">{lesson.title}</h1>
-          <p className="text-xl text-slate-600 leading-relaxed">{lesson.description}</p>
-        </header>
-        
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
-          {lesson.modals.map((modal, index) => (
-            <div 
-              key={index}
-              onClick={() => setModalData(modal)}
-              className="group bg-white p-8 rounded-[2rem] shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-2 h-full bg-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              <h2 className="text-2xl font-bold mb-3 text-slate-800">{modal.title}</h2>
-              <p className="text-slate-500">לחץ להרחבה ומידע נוסף &larr;</p>
-            </div>
-          ))}
+    <main className="min-h-screen bg-slate-50 p-8 md:p-16" dir="rtl">
+      <div className="max-w-4xl mx-auto">
+        <div className="flex justify-between items-center mb-12">
+          <Link href="/" className="text-blue-600 font-bold flex items-center gap-2 hover:gap-4 transition-all text-lg">
+            <span>&rarr;</span> חזרה
+          </Link>
+          <div className="bg-white px-6 py-2 rounded-full shadow-sm border border-slate-100 font-bold text-slate-500 font-sans">
+            MODULE 01
+          </div>
         </div>
 
-        <section className="bg-slate-100/50 p-8 rounded-[3rem] border border-slate-200 mb-12">
-          <div className="flex items-center gap-4 mb-8">
-            <div className="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg">?</div>
-            <h2 className="text-3xl font-black text-slate-900">בדיקת הבנה</h2>
-          </div>
+        <header className="mb-16">
+          <h1 className="text-6xl font-black text-slate-900 mb-6 leading-tight">{lesson.title}</h1>
+          <p className="text-2xl text-slate-600 leading-relaxed max-w-2xl">{lesson.description}</p>
+        </header>
+
+        <section className="bg-slate-900 text-white p-12 rounded-[3.5rem] shadow-2xl mb-16 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full -mr-32 -mt-32"></div>
+          <h2 className="text-3xl font-bold mb-8 flex items-center gap-4">
+            <span className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center text-xl">💡</span>
+            משימת הבנה עמוקה
+          </h2>
           <Quiz questions={lesson.quiz} />
         </section>
-
-        <footer className="pt-8 border-t border-slate-200">
-          <Link href="/" className="inline-flex items-center gap-2 text-blue-600 font-bold text-lg hover:gap-4 transition-all">
-            <span>&rarr;</span>
-            <span>חזרה ללוח הבקרה</span>
-          </Link>
-        </footer>
-
-        <InfoModal 
-          isOpen={!!modalData} 
-          onClose={() => setModalData(null)} 
-          title={modalData?.title || ""} 
-          content={modalData?.content || ""} 
-        />
       </div>
     </main>
   );
