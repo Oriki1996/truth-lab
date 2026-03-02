@@ -7,7 +7,9 @@ import { useParams } from "next/navigation";
 export default function LessonPage() {
   const params = useParams();
   const id = parseInt(params.id as string);
-  const lesson = courseData.lessons.find(l => l.id === id);
+  const lessonIndex = courseData.lessons.findIndex(l => l.id === id);
+  const lesson = courseData.lessons[lessonIndex];
+  const nextLesson = courseData.lessons[lessonIndex + 1];
 
   if (!lesson) return <div className="p-20 text-center text-2xl">השיעור לא נמצא...</div>;
 
@@ -26,7 +28,7 @@ export default function LessonPage() {
             </div>
           </header>
           
-          <div className="prose prose-lg text-slate-700 leading-loose mb-10">
+          <div className="prose prose-lg text-slate-700 leading-loose mb-10 whitespace-pre-wrap">
             {lesson.content}
           </div>
 
@@ -35,10 +37,21 @@ export default function LessonPage() {
           </div>
         </article>
 
-        <section className="bg-slate-900 text-white p-10 rounded-3xl shadow-2xl">
-          <h2 className="text-3xl font-bold mb-8">בוחן כוכבים ★</h2>
-          <Quiz questions={lesson.quiz} />
+        <section className="bg-slate-900 text-white p-10 rounded-3xl shadow-2xl mb-10">
+          <h2 className="text-3xl font-bold mb-8 italic underline decoration-blue-500">בוחן המודול ★</h2>
+          <Quiz questions={lesson.quiz} lessonId={lesson.id} />
         </section>
+
+        {nextLesson && (
+          <div className="text-left">
+            <Link 
+              href={'/lesson/' + nextLesson.id}
+              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-xl hover:bg-blue-700 transition-all shadow-lg"
+            >
+              לשיעור הבא: {nextLesson.title} ←
+            </Link>
+          </div>
+        )}
       </div>
     </main>
   );
