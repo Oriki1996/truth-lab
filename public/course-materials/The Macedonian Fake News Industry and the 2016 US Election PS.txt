@@ -1,0 +1,207 @@
+Politics ............................................................................................................................................................................................................................................................. 
+
+The Macedonian Fake News Industry and the 2016 US Election 
+
+Heather C. Hughes, University of Haifa Israel Waismel-Manor, University of Haifa 
+
+ABSTRACT During the 2016 US presidential election, Americans were exposed to an onslaught of disinformation on social media. Many of the most viral posts originated from Veles, a small town in central Macedonia. During fieldwork in Veles, where we interviewed several residents and disinformation creators, we found that the epicenter of this viral phenomenon was Mirko Ceselkoski, an autodidact social media expert, teacher, and mentor to Veles’ fake news operators. We interviewed Ceselkoski and registered and attended his online course—the same course numerous Veles residents took offline. Our research confirms (1) the pivotal role Ceselkoski had in the creation of this industry; (2) the economicmotivation driving the fake news disseminators; and (3) themanner inwhich the mostly young people in their early twenties with little English fluency were able to generate so much traffic and disseminate so much disinformation. 
+
+During the final three months of the 2016 US 
+
+national presidential election, the 20 top-performing false election stories generated more engagement (i.e., shares, reactions, and com-ments) on Facebook than the 20 top-performing 
+
+stories from major news outlets such as the New York Times, the Washington Post, and NBC News (Silverman 2016). Many of these hoax stories—such as the claims that Democratic candidate Hillary Clinton had “sold weapons to ISIS” and that Pope Francis had endorsed the candidacy of Donald Trump—originated from web-sites whose IP address pointed to a little town inMacedonia called Veles. 
+
+News stories published by The Guardian in late August 2016 (Tynan 2016) and Buzzfeed a few days before the election (Silverman and Alexander 2016) were the first to expose this phenomenon. Since then, this small fake news industry has been covered extensively in the media (e.g., Cvetkovska 2018; Soares 2017; Subramanian 2017). Nevertheless, there is still much we do not know, including why so much of this disinformation origin-ated in Veles and what made its disseminators so successful. 
+
+To answer these questions, we conducted fieldwork in Veles, interviewing fake news generators and local residents familiar with this industry. We also interviewed and investigated Mirko 
+
+Ceselkoski, a self-taught, viral marketing specialist whose name has been associated with the fake news business since the story’s inception. Our findings reveal the mechanisms behind the fake news production and the ease with which fake news may be generated and disseminated. They also show that the driving force behind the Veles fake news business is economics rather than politics. 
+
+ALL ROADS LEAD TO VELES 
+
+In recent years, fake newshas become a buzzword that encompasses several related phenomena, including propaganda, news satire or parody, misinformation, and disinformation (Tandoc et al. 2018). However, in the 2016 electoral context, we can state that fake news coming fromVeleswas a formof disinformation—a deliberate effort to create and share false information (Wardle 2017). 
+
+Immediately before the 2016 election and its aftermath, main-stream reporters began exposing the source and magnitude of the fake news industry. These news reports showed that most disin-formation articles and posts demonized Hillary Clinton and glori-fied Donald Trump (Silverman 2016); they also provided evidence that individuals exposed to those stories tended to believe them (Silverman and Singer-Vine 2016). As a result, it became almost a truism that if not for fake news, Trumpwould not have been elected president (e.g., Parkinson 2016; Subramanian 2017). 
+
+The scholarly response to this question has been more meas-ured. Reviewing the information environment to which voters were exposed in the months before the election, Jamieson (2018) argued that it indeed is likely that disinformation swayed the 
+
+Heather C. Hughes is an MA graduate of the School of Political Science, University of Haifa. She can be reached at heather.c.hughes@gmail.com. IsraelWaismel-Manor is senior lecturer in the School of Political Science, University of Haifa. He can be reached at wisrael@poli.haifa.ac.il. 
+
+ 
+
+election in favor of Trump. Likewise, Gunther, Beck, and Nisbet (2019) argued that disinformationmay have aided Trumpby leading many former Obama voters away from Clinton in 2016. Conversely, measuring exposure to and recollection of fake news, Allcott and Gentzkow (2017) concluded that it is unlikely that fake news gave the victory to Trump. Moreover, given that the Macedonian stories were rarely among the most significant during the campaign, Faris et al. (2017) argued that disinformation from partisan sources are the main propagators that swayed public opinion. 
+
+Fake news stories that exploded on social media in the run-up to the 2016 presidential election can be traced to many sources. Some were produced by American citizens (Cvetkovska et al. 2018; Tynan 2016) and some originated in Russia (US Senate Judiciary Com-mittee 2017). Yet, many reports indicate that the epicenter of the fake news industry was the sleepy little town of Veles inMacedonia (Cvetkovska 2018; see also Silverman and Alexander 2016; Subramanian 2017). According to most accounts, the hoaxers in Veles were primarily poor, apolitical young men in their teens and twenties who, under the tutelage of the web-marketing specialist Mirko Ceselkoski, became adept at luring American conservatives to their websites and Facebook posts andmade clickbait fortunes. A more recent and somewhat conflicting account found that some sites emerged as early as September 2015. They were created by Trajche Arsov, a local attorney who began publishing hyper-partisan content with the assistance of two American conservative writers and a Russian nationalist (Cvetkovska et al. 2018). 
+
+In the face of uncertainty about the origins and impact of the fake news phenomenon, and given the potential importance of the subject for the functioning of democratic societies, we decided to conduct our own fieldwork in Veles. Our aim was to better understand who these fake news creators were (and still are), what motivates them, how they learned to generate and disseminate political content, and what accounts for their success. 
+
+FIELDWORK IN VELES 
+
+In the initial stage of research, the first author traveled to Veles in May 2018 and conducted her fieldwork, adopting an ethnographic approach common in the study of communities of practice. Origin-ally viewed as a group of people that share a passion or a vocation and whose interactions allow them to gain knowledge and grow professionally (Lave and Wenger 1991), communities-of-practice research now commonly encompasses additional stakeholders within a greater community (Thomson et al. 2013). This method-ology requires a researcher to engage with the professional com-munity as well as the community that surrounds it, such as novices, family members, and locals familiar with these professionals. 
+
+Interviewees were identified through a “snowball” method, beginning with two local residents whom the author encountered on arrival in Veles. This led to others with increasing knowledge of and familiarity with the industry. Eventually, nine interviews were conducted—five with locals who were familiar with actors in the fake news industry but were not themselves operatives; three with fake news creators; and one with a foreign diplomat who has 
+
+closely followed the Veles fake news industry. Because most locals spoke little English, most of the interviews were conducted with the assistance of a volunteer translator from Skopje, who escorted the first author during her time in Veles. Most subjects refused to allow the interviews to be recorded. Therefore, the research is based on copious notes taken by the first author during the interviews. 
+
+The original plan was for the first author to spend a week in Veles and interview as many people as possible. However, after being asked to “pay” for an interview with sexual favors or €5,000 to replace their business if their page resulted in getting shut down, she decided it was no longer safe or viable for her to stay in Veles and terminated the field research.1 
+
+Veles is a town of 45,000 residents about a one-hour drive southeast of Skopje. The city is quite poor, with an average monthly net wage of $380 USD (well below the national average), a 22% poverty rate, and a 24% unemployment rate (Ilievski, Ghorgjievska, and Zlatkov 2016). The residents who were first approached for this study—all individuals of limited means— admired their compatriots who had pulled themselves out of poverty through the dissemination of fake news. Notably, every-one in Veles withwhom the author broached the subject—whether at a family meal or the local café or gas station—indicated that they knew (or at least knew of ) operatives in the industry. This was especially true for young people, who were more than willing to support the current research by sharing the names and addresses of disinformation disseminators. 
+
+In one case, the first author was escorted by a local resident to the home of one operative. The home, modern and well main-tained, was easy to identify among the more neglected houses on the street. The author’s host explained that he used to be friends with two brothers who work in the industry but that since they became wealthy, they no longer valued his company. According to locals, these two brothers were among six Veles residents who had become highly successful as fake news operatives, earning more than $1 million USD in 2016. Local rumor had it that one person still received $500 USD monthly from President Trump in appre-ciation for his help during the election. 
+
+In numerous conversations, the first author probed residents of Veles—including fake news operators themselves—about whether they had any ethical problems with fake news dissemination, or even remorse. The answer was unequivocally no. “We can’t afford anything, and if the Americans can’t tell the difference [between real and fake news], it’s their fault,” said one young woman. Another man told us, “It’s the Americans’ fault for not under-standing things. So what if we make money off their inability to 
+
+discern [fact from fake].” Several residents said repeatedly that they wished for “a normal life,” and this was one way to achieve that goal. This moral elasticity is not surprising, given the fact that ample research shows individuals are more willing to break the law with the decline of wages (Machin and Meghir 2004). Hence, for an extra monthly income of $300 USD, an American may be dissuaded from starting a business that spreads shady, false 
+
+“We can’t afford anything, and if the Americans can’t tell the difference [between real and fake news], it’s their fault,” said one young woman. 
+
+ 
+
+Po l i t i c s : The Ma c e d on i an Fak e News I ndu s t r y .............................................................................................................................................................................................................................................................
+
+stories; however, for a resident of Veles, where that sum can sustain his family for a month, it may be enough. 
+
+Could it be that Macedonians themselves have difficulty sep-arating fact from fiction? According to a foreign diplomat sta-tioned in Skopje who spoke to us on condition of anonymity, “Macedonia has the lowest discernibility rate in understanding true and false news due to the poverty and poor journalism [in the country].” This assertion was not supported by our research. When we asked a group of disinformation creators if what they were doing was illegal, their response was that none of their activities were illegal. However, a few laughed nervously, revealing discomfort with the question. 
+
+An alternative explanation may lie in Macedonia’s political culture and the way that its citizens view themselves and the law. Mungiu-Pippidi (2005) found that Macedonia, like many former Eastern Bloc countries, is characterized by a scarcity of human capital and a slowness to internalize the rule of law. Of the Macedonians surveyed, 53% said the law should not be a barrier to certain behavior; 85% agreed that some people are above the law. Moreover, among the five Balkan nations she surveyed, Mungiu-Pippidi found Macedonia to have the highest levels of interper-sonal mistrust, with 72% of respondents stating that only kin can be trusted. Although Mungiu-Pippidi’s (2005) research may be dated, it is unlikely that social attitudes have changed substan-tially in the intervening years. As such, whereas this explanation alone may be insufficient to explain how a small town in Mace-donia became a hotbed of fake news production, it may be that Macedonian norms and values facilitate immoral behavior in the face of economic hardship. After all, as a friend of our translator said when probed, “We’re too poor to do anything. We have no future working here. We work very hard, and this is a way for our children to make money.” 
+
+Multiple websites report that disinformation creators are young, single men; although some are, our interviews revealed that many are parents supporting families. One individual we talked to showed us his personal Facebook page with photographs of his wife and three smiling children. He told us that if he were to be identified, he would be at risk of losing his family’s livelihood. 
+
+According to our research, whereas most of the people who operated fake news websites and Facebook pages in 2016 did not become millionaires, many did very well. The three operatives inter-viewed in this field research reported earning additional income around €1,000 a month—an amount similar to that reported in numerous news stories (e.g., Agence France-Presse 2018). Yet, we learned that tomakemoney, first oneneedsmoney. “It’s the circle that everyonewants to bepart of but can’t unless theyhave 500 euros,” said one young woman, who was saving up to take a course that would teach the skills to runher ownwebsites andFacebookpages. Thiswas the Facebook Marketing University, the course established and maintained by Mirko Ceselkoski that apparently launched most of the young fake news disseminators into their career. 
+
+Mirko, as locals call him, has become a media sensation. Most reports on the Macedonian fake news industry place him at the 
+
+center of it—the person who taught more than 100 Veles residents how to make money through the Internet (e.g., Subramanian 2017). Our own research confirms Ceselkoski’s central role. Locals repeatedly referred to his course, recounting how his alumni became wealthy. In addition to the young woman mentioned previously, another interviewee—an older woman—said she was putting aside money for her son to take the course. Moreover, scanning the Facebook profiles of the three fake news generators that we interviewed, as well as 10 others we identified, we found only one name that appeared as a Facebook friend on all 13 lists: Ceselkoski. 
+
+Enjoying his newfound fame, Ceselkoski—who styles himself as “the man who helped Donald Trump win the 2016 US election” (Ceselkoski 2018)—has now opened his course to the general public, including both Macedonians and outsiders. We paid the $797 USD fee and took his course, which—to the best of our knowledge—no previous reporter or scholar has done. We also conducted two interviews with Cesekloski himself via long-distance video link and in person. 
+
+THE FACEBOOK MARKETING UNIVERSITY 
+
+Most news reports about the Veles fake news industry tell a similar story—one inwhich a few teenagers, through somemixture of computer savvy and luck, “hit the jackpot.” To illustrate this, Ceselkoski said that some years ago, a woman invented a story about the “hiddenmeaning” of the colors printed on the flat end of toothpaste tubes. So many people visited her website that it crashed, resulting in enough views to earn about $30,000 USD. Mirko laughed and said, “Shemade it all up in her house, and now people don’t believe the actual toothpaste companies.” Neverthe-less, the interviews and course materials reveal that, for the most 
+
+part, success was actually the product of studying the market, learning from competitors, conducting other forms of research, and enduring much trial and error.2 
+
+Ceselkoski’s course, the Facebook Marketing University (Ceselkoski 2018), is not an introduction to fake news production and dissemination but rather a primer that teaches students how to utilize the Internet for financial gain by creating sensational content fitting a pay-per-click world. Ceselkoski boasted that 1,200 students already are making “a collective $10+ million per month” and that “maybe you have heard that a team of individuals from Macedonia somehow helped US President Donald Trumpwin the 2016 US elections. It was my crew and my students from Mace-donia” (Module 1–001). Other than this specific reference in the introductory module, Ceselkoski avoids any references to political disinformation throughout the course. In fact, if he was not associated with the 2016 election except for a few references throughout the course, we could not differentiate between the product he sells to similar workshops and Internet marketing academies. 
+
+The goal is to create one’s own Facebook page with 500 thou-sand to 1 million followers. This is accomplished strategically. 
+
+“We’re too poor to do anything. We have no future working here. We work very hard, and this is a way for our children to make money.” 
+
+ 
+
+.............................................................................................................................................................................................................................................................
+
+In Module 1–003, students begin with a careful analysis of Face-book pages that are already popular and learn how to emulate them. It is crucial to start with a general topic that already has numerous followers and then find a niche within that topic that is likely to be popular while also narrow enough that people will want to engage with the content. Thus, if the topic is health, one must narrow it down to diabetes or anxiety; if the topic is dogs, the page must relate to a particular breed; and if it is politics, one can create a fan page for a certain politician. 
+
+Much of the knowhow is the outcome of trial and error. Ceselkoski told us in an interview that some students began with health and celebrity pages but quickly learned that political pages generated greater engagement and were more profitable. They first tried ads against both Trump and Clinton, finding that those against Clinton were more viral and generated more revenue. 
+
+Scholars (Mele et al. 2017) and practitioners (Martin 2019) alike concur that conservatives are more susceptible to fake news and more likely to share it (Guess, Nyhan, and Reifler 2020).3 
+
+In addition, students are advised to list 10 competing Facebook pages and manually “spy” on them daily to see where they are successful and how they can be imitated (Module 1–010). Having hundreds of fake news sites andweb pages to follow, this is an easy learning lesson. 
+
+To continue growing, the module recommends monitoring the performance of posts and spendingmodest amounts (i.e., up to $10 per day), running different ads, and using A/B testing to see which outperforms others in terms of shares and organic traffic. Narrow-ing the audience is key to any campaign; therefore, if the aim is to reach Trump supporters, Ceselkoski recommended targeting “vet-erans, or people who like veterans, or family of veterans: wives, children, maybe brothers and sisters of US soldiers” (Module 1– 004). The emotional engagement increases the chances that these individuals will like the page and share its content. 
+
+Fake news travels faster and deeper than regular news (Vosoughi, Roy, and Aral 2018), but the key is that most followers need to believe the false story, which requires trust. Therefore, Ceselkoski suggests establishing the Facebook network or web page months in advance, feeding it with relevant content. Once trust is established, one can begin publishing more outrageous content. Ceselkoski told us in our first interview that the ratio should be “80% truth, 20% not truth.” The idea behind this ratio is to strike just the right balance. If all stories were true, then—in comparison to regular media—the website or Facebook page would offer no added value and generate no traffic. If, alterna-tively, all stories were false, even readers with low media literacy would figure out that they are being lied to and abstain from clicking on links. Thus, when the fake news is wrapped in true stories, it establishes and sustains the credibility of the medium. It is that credibility that seduces readers to click on an incredibly interesting story that otherwise would have been flagged as false. 
+
+Although learning the technical aspects of viral marketing is a time-consuming task, it can be mastered with practice. Writing content is a different matter altogether. To strike a responsive 
+
+chord (Schwartz 1974), onemust be immersed in the language and culture of the targeted audience. It is clear from our own fieldwork —and supported by numerous media accounts—that most of those operating disinformation sites are not fluent in English (indeed, some barely speak it) and are not well versed in American politics and culture. How is it that theywere able to create content that was so engaging? 
+
+First, the most effective tool recommended by Ceselkoski is BuzzSumo, a content-marketing research platform. For $99USD a month, users can learn which content is most shared on social media; see how given domains are performing, including their own; find influencers related to particular topics; track competi-tors; and even sign up for alerts so that one can ride a new viral trend or topic as it happens (Module 1–009). Operators are required to copy only from the best. 
+
+Second, to lure readers to one’s web page or Facebook page, provocative clickbait titles are required because these exploit an insatiable appetite and curiosity among readers (Anand, Chakraborty, andPark 2017). “It is a hook and you get a chance of less than a second to catch the reader’s attention and persuade them that this text is worth their time” (Module 1–019). To succeed, Ceselkoski recom-mends using numerous free title generators and pretesting them, like one doeswith stories and posts. The titles do not have to be false, only seductive or sensational enough to urge readers to click on them. For example, a title such as “I supported Hillary until I saw this,”which is not false, may outperform a title such as “Hillary had two strokes.” The key is spending a few dollars to test which title generates more traffic and then invest in the one that outperforms the other. 
+
+Third, the content itself can be obtained from various sources: competitors’ Facebook pages; Google’s keyword plan-ner; alerts and hot-trend indicators; public reviews and com-ments on news sites and blogs; and answers to questions on sites such as Quora and Yahoo Answers (Module 1–010). By emulating and even plagiarizing the content of successful com-petitors, one saves the time and effort of pretesting stories and— because they are not real news organizations—one does not have to fear a lawsuit for stealing competitors’ stories. Moreover, by copying and pasting from these sites, a foreign content creator, who is a non-native speaker, can generate articles that “feel American” in their sentence structure, idioms, and content. 
+
+CONCLUSION 
+
+Initial accounts on the Veles fake news industry tell the story of people living in conditions of economic hardship who harnessed their recently acquired knowledge of online marketing to make a living—and even acquire wealth—by exploiting conservative Ameri-cans’ hunger for negative stories about Hillary Clinton (Silverman and Alexander 2016). A more recent account, still under investiga-tion by authorities, found links to American conservative writers working with Trajche Arsov, a Macedonian lawyer, and a Russian nationalist (Cvetkovska et al. 2018). Speaking with operatives, locals, and Mirko Ceselkoski himself in our own field research, 
+
+They first tried ads against both Trump and Clinton, finding that those against Clinton were more viral and generated more revenue. 
+
+ 
+
+Po l i t i c s : The Ma c e d on i an Fak e News I ndu s t r y .............................................................................................................................................................................................................................................................
+
+we found no evidence to contradict the latter account but much information to confirm the original narrative. 
+
+We found that Ceselkoski began teaching locals his marketing knowhow as early as 2011, four years before Arsov allegedly began creating his own sites. Locals with whom the first author initiated conversations led us to operatives, and both groups revealed Ceselk-oski’s central role in the creation of this industry. According to Ceselk-oski—and corroborated by numerous news stories—he instructed hundreds of students, thereby extending his influence far beyond that of anyone else. When asked whether it is possible that Russian operatives were planting useful content for his students to use, Ceselk-oski said that the postswere a “domestic product ofMacedonia,”but he admitted that many came from US sources, slightly modified. 
+
+It is obvious that Ceselkoski has an interest in keeping the title “the man who helped Donald Trump win the 2016 US election,” giving him reason to deny any story that does not support this narrative. All of the individuals we interviewed seemed to corrob-orate his story. Alternatively, it is plausible that the Russian Internet Research Agency (IRA) clandestine operation was so effective that Ceselkoski and all others were unaware of it or refuse to admit that they were manipulated by the IRA.We cannot rule out this possibility, but all of the local operatives insisted that they were behind it all with a single goal in mind: making a profit. As we approach the next US presidential election, we should remind ourselves that if the Macedonians are those making a profit, it must be democracy that is paying the bill. 
+
+ACKNOWLEDGMENTS 
+
+Weare indebted to theSchool of Political Science at theUniversity of Haifa for their financial support. We are grateful to Biljana Blazeska for her companionship and translation and thank Robert Kupiecki and the anonymous reviewers for comments and suggestions.▪ 
+
+NOTES 
+
+1. A clear protocol was in place for this scenario. Expecting reluctance to cooperate and even hostility from the fake news operators, the first author was escorted to all interviews by a local female translator and was instructed to leave Veles if at any point she felt unsafe. 
+
+2. Most of the course addresses technical components of successful online marketing, such as choosing the optimal parameters and format for photographs and videos; finding creative commonsor cheap stock images; addinggiveawaysor actionbuttons; tagging content; engaging with similar pages; creating multiple Facebook profiles; usingmobile devices; monetizing pages using services such asGoogle’s Adsense; and dealing with Facebook regulations. These components are not discussed here. 
+
+3. This only reinforces the claims that the attacks on Clinton were driven by economics, not politics. Even Jestin Coler, CEO of Disinfomedia and a registered Democrat whomade a fortune going after Clinton, states that he tried writing fake news for liberals but they never took the bait (Martin 2019). 
+
+REFERENCES 
+
+Agence France-Presse. 2018. “Inside Veles, theMacedonian Town that Became a Pro-Trump Fake News Factory.” Agence France-Presse, July 14. Available at www.thejournal.ie/fake-news-factory-4124135-Jul2018. 
+
+Allcott, Hunt, and Matthew Gentzkow. 2017. “Social Media and Fake News in the 2016 Election.” Journal of Economic Perspectives 31 (2): 211–36. 
+
+Anand, Ankesh, Tanmoy Chakraborty, and Noseong Park. 2017. “We Used Neural Networks to Detect Clickbaits: You Won’t Believe What Happened Next!” In European Conference on Information Retrieval, 541–47. Cham, Switzerland: Springer Publishing. 
+
+Ceselkoski, Mirko. 2018. “The Man Who Helped Donald Trump Win the 2016 US Elections.” Available at www.mirkoceselkoski.me. 
+
+Cvetkovska, Saska. 2018. “How a Macedonian Town Became an Epicenter of Fake News.” Mail & Guardian, July 12. Available at https://mg.co.za/article/2018-07-12-how-a-macedonian-town-became-an-epicentre-of-fake-news. 
+
+Cvetkovska, Saska, Aubrey Belford, Craig Silverman, and Lester Feder. 2018. “The Secret Players Behind Macedonia’s Fake News Sites.” Organized Crime and Corruption Reporting Project, July 18. Available at www.occrp.org/en/ spooksandspin/the-secret-players-behind-macedonias-fake-news-sites. 
+
+Faris, Robert, Hal Roberts, Bruce Etling, Nikki Bourassa, Ethan Zuckerman, and Yochai Benkler. 2017. “Partisanship, Propaganda, and Disinformation: Online Media and the 2016 US Presidential Election.” Berkman Klein Center Research Publication, 6. 
+
+Guess,AndrewM.,BrendanNyhan, and JasonReifler. 2020. “Exposure toUntrustworthy Websites in the 2016 US Election.” Nature Human Behaviour 4 (5): 472–80. 
+
+Gunther, Richard, Paul A. Beck, and Erik C. Nisbet. 2019. “‘Fake News’ and the Defection of 2012 Obama Voters in the 2016 Presidential Election.” Electoral Studies 61:102030. 
+
+Ilievski, Ljuben, Tatjana Ghorgjievska, and Darko Zlatkov. 2016. Statistical Album of the Republic of Macedonia. Available at www.stat.gov.mk/Publikacii/Statisticki-album1991-2016.pdf. 
+
+Jamieson, Kathleen H. 2018. Cyberwar: How Russian Hackers and Trolls Helped Elect a President: What We Don’t, Can’t, and Do Know. Oxford: Oxford University Press. 
+
+Lave, Jean, and Etienne Wenger. 1991. Situated Learning: Legitimate Peripheral Participation. Cambridge: Cambridge University Press. 
+
+Machin, Stephen, and Costas Meghir. 2004. “Crime and Economic Incentives.” Journal of Human Resources 39 (4): 958–79. 
+
+Martin, Chris. 2019. “No, Liberals and Conservatives Aren’t Both Susceptible to Fake News.” Medium, February 26. Available at https://medium.com/@chrismartin76/ no-liberals-and-conservatives-arent-both-susceptible-to-fake-news-ed7e22429aad. 
+
+Mele, Nicco, David Lazer, Matthew Baum, Nir Grinberg, Lisa Friedland, Kenneth Joseph, Will Hobbs, and Carolina Mattsson. 2017. “Combating Fake News: An Agenda for Research and Action.” Available at www.hks.harvard.edu/ publications/combating-fake-news-agenda-research-and-action. 
+
+Mungiu-Pippidi, Alina. 2005. “Deconstructing Balkan Particularism: TheAmbiguous Social Capital of Southeastern Europe.” Southeast European and Black Sea Studies 5 (1): 49–68. 
+
+Parkinson, Hannah J. 2016. “Click and Elect: How Fake News Helped Donald Trump Win a Real Election.” The Guardian, November 14. Available at www.theguardian.com/commentisfree/2016/nov/14/fake-news-donald-trump-election-alt-right-social-media-tech-companies. 
+
+Schwartz, Tony. 1974. The Responsive Chord. Garden City, NY: Anchor Press/ Doubleday. 
+
+Silverman, Craig. 2016. “This Analysis Shows How Viral Fake Election News Stories Outperformed Real News on Facebook.” Buzzfeed, November 16. Available at www.buzzfeed.com/craigsilverman/viral-fake-election-news-outperformed-real-news-on-facebook. 
+
+Silverman, Craig, and Lawrence Alexander. 2016. “How Teens in the Balkans Are Duping Trump Supporters with Fake News.” Buzzfeed, November 3. Available at www.buzzfeed.com/craigsilverman/how-macedonia-became-a-global-hub-for-pro-trump-misinfo. 
+
+Silverman, Craig, and Jeremy Singer-Vine. 2016. “Most Americans Who See Fake News Believe It, New Survey Says.” Buzzfeed, December 6. Available at www.buzzfeednews.com/article/craigsilverman/fake-news-survey. 
+
+Soares, Isa. 2017. “The ‘Fake News’ Machine: Inside a Town Gearing Up for 2020.” CNN, September 13. Available at http://cnnpressroom.blogs.cnn.com/2017/09/13/ cnn-digital-studios-fake-news-macedonia. 
+
+Subramanian, Samanth. 2017. “Meet the Macedonian Teens Who Mastered Fake News and Corrupted the US Election.” Wired, February 15. Available at www.wired.com/2017/02/veles-macedonia-fake-news. 
+
+Tandoc, Jr., Edson C., Zheng Wei Lim, and Richard Ling. 2018. “Defining ‘Fake News’: A Typology of Scholarly Definitions.” Digital Journalism 6 (2): 137–53. 
+
+Thomson, Louise, Justine Schneider, and Nicola Wright. 2013. “Developing Communities of Practice to Support the Implementation of Research into Clinical Practice.” Leadership in Health Services 26 (1): 20–33. 
+
+Tynan, Dan. 2016. “How Facebook Powers Money Machines for Obscure Political ‘News’ Sites.” The Guardian, August 24. Available at www.theguardian.com/ technology/2016/aug/24/facebook-clickbait-political-news-sites-us-election-trump. 
+
+US Senate Judiciary Committee. 2017. “Extremist Content and Russian Disinformation Online: Working with Tech to Find Solutions.” Available at www.judiciary.senate.gov/meetings/extremist-content-and-russian-disinformation-onlineworking-with-tech-to-find-solutions. 
+
+Vosoughi, Soroush, Deb Roy, and Sinan Aral. 2018. “The Spread of True and False News Online.” Science 359 (6380): 1146–51. 
+
+Wardle, Claire. 2017. “Fake News: It’s Complicated.”Medium, February 16. Available at https://medium.com/1st-draft/fake-newsits-complicated-d0f773766c79. 
+
+ 
+
+.............................................................................................................................................................................................................................................................

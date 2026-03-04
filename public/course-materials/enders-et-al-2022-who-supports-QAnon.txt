@@ -1,0 +1,315 @@
+S H O R T A R T I C L E
+
+Who Supports QAnon? A Case Study in Political Extremism 
+
+Adam M. Enders, University of Louisville Joseph E. Uscinski, University of Miami Casey A. Klofstad, University of Miami Stefan Wuchty, University of Miami Michelle I. Seelig, University of Miami John R. Funchion, University of Miami Manohar N. Murthi, University of Miami Kamal Premaratne, University of Miami Justin Stoler, University of Miami
+
+The QAnon conspiracy theory has garnered increasing attention as more than 80 pro-QAnon congressional candidates 
+
+vied for nominations in 2020 primary races. The QAnon movement is widely characterized as “far right” and “growing,” but 
+
+such claims rest on flimsy evidence. Using six public opinion polls from 2018 to 2020, we find that support for QAnon is both 
+
+meager and stable across time.QAnon also appears tofind support among both the political right and left; rather than partisan 
+
+valence, it is the extremity of political orientations that relates to QAnon support. Finally, we demonstrate that while QAnon 
+
+supporters are “extreme,” they are not so in the ideological sense. Rather, QAnon support is best explained by conspiratorial 
+
+worldviews, dark triad personality traits, and a predisposition toward other nonnormative behavior. These findings have 
+
+implications for the study of conspiracy theories and the spread ofmisinformation and suggest new directions for research on 
+
+political extremism.
+
+At its core, the QAnon movement—which started in 
+
+2017 on 4chan—is composed of individuals who be-lieve that an anonymous individual who goes by “Q” 
+
+is providing secret clues about President Trump’s battle with a “deep state” composed of Satanic sex-trafficking pedophiles. QAnon has captured the attention of mainstream media out-lets who claim it is spreading “like wildfire,” “exploding in pop-
+
+Adam M. Enders (adam.enders@louisville.edu) is an assistant professor at Uni miami.edu) is a professor, Casey A. Klofstad (c.klofstad@miami.edu) is a prof Michelle I. Seelig (mseelig@miami.edu) is an associate professor, John R. Funch (mmurthi@miami.edu) is an associate professor, Kamal Premaratne (kamal@mia professor at University of Miami, Coral Gables, FL 33146. The efforts of Uscinski, Klofstad, Wuchty, Seelig, Funchion, Murthi, and Prem 
+
+grant 2123635, and the data collection was supported by University of Miami’s U versity of Miami institutional review board. Replication files are available in th ical analysis has been successfully replicated by the JOP replication analyst. An a /717850. 
+
+1. The appendix contains a list of recent reporting about QAnon by major 
+
+Published online April 5, 2022. 
+
+The Journal of Politics, volume 84, number 3, July 2022. q 2022 Southern Politic Chicago Press for the Southern Political Science Association. https://doi.org/10.
+
+ularity,” and “infiltrating mainstream American life.” Journal-ists compare the QAnonmovement to the Christian Right and Tea Party and posit that the group—which is usually labeled “extreme” or “far” right because of its support for Trump and because most Q-linked candidates are Republicans—is taking over the GOP.1 QAnon’s supposed growth has been attributed primarily to social media, the 2020 pandemic, and Donald
+
+versity of Louisville, Louisville, KY 40292. Joseph E. Uscinski (uscinski@ essor, Stefan Wuchty (wuchtys@cs.miami.edu) is an associate professor ion (jfunchion@miami.edu) is an associate professor, Manohar N. Murth mi.edu) is a professor, and Justin Stoler (stoler@miami.edu) is an associate 
+
+aratne were supported by the National Science Foundation, SaTC Program -Link Program. This study complies with, and was approved by, the Uni e JOP Dataverse (https://dataverse.harvard.edu/dataverse/jop). The empir ppendix with supplementary material is available at https://doi.org/10.1086 
+
+news outlets. 
+
+al Science Association. All rights reserved. Published by The University o 1086/717850
+
+, i 
+
+, --
+
+ f
+
+3. See the appendix for alternative measurement techniques, which sup-port our findings. Using the same sample, we find that an average rating of 16 
+
+Volume 84 Number 3 July 2022 / 1845
+
+Trump. QAnon followers have repeatedly engaged in harass-ment and violence that has caught the FBI’s attention; even Congress officially condemned the movement (Pecorin 2020). 
+
+While journalists have provided useful empirical infor-mation about QAnon, basic questions about the size, struc-ture, and characteristics of the group abound, andmany of the reports about these issues are contradictory. For example, how can a group be both “extreme” and “mainstream”? Moreover, while journalists often label the movement “far right,” sug-gesting ideological or partisan goals, followers repeatedly call for the executions of numerous Republicans, and many of Q’s supporters who have committed violence appear to have psy-chological motivations unrelated to major parties or ideo-logies (Collins 2020). 
+
+Logical tension aside, little supportive evidence has been produced for the many empirical claims made about QAnon. Some reporting finds the number of QAnon groups on social media platforms troubling, but this is hardly evidence for the mainstreaming of QAnon. Complicating matters further, polls gauging beliefs about QAnon reveal that most Americans learned of the movement through mainstream sources and do not support it (e.g., Pew 2020). 
+
+To address discrepancies in claims about the size, scope, and composition of QAnon, we endeavor to answer three ques-tions: (1) Is support for the QAnon movement growing? (2) Does support for QAnon stem from far-right ideologies or identities? (3) What explains QAnon support? Using the lit-erature on conspiracy beliefs to guide our analyses, we find that support for QAnon is weak, stable across time, and born more of antisocial personality traits and a predisposition toward conspiracy thinking than traditional political identities and motivations. 
+
+Our findings have several implications for the study of conspiracy theory beliefs and political extremism. They show-case that extremist beliefs—which are frequently conceptual-ized using the terminology of political left and right—are better understood as products of antisocial personality traits and other nonnormative orientations. Conflating these moti-vations hinders the development of effective strategies for addressing conspiracy theory beliefs and misdirects critical research into potentially dangerous movements, like QAnon. 
+
+DATA AND FINDINGS We first examine the level of, and temporal change in, QAnon support using six representative opinion polls—four national US polls and two polls of Floridians—spanning August 2018– October 2020.2 Support for the QAnon movement is assessed via a 101-point feeling thermometer in each case, whereby 0
+
+2. Details about survey methodology and samples appear in the appendix.
+
+reflects very negative feelings and 100 reflects very positive feelings. We ask about the “QAnon movement,” specifically, because QAnon followers view themselves this way: there is an oath, believers use hashtags to signify Q support (e.g., #WWG1WGA), and supporters often reference themselves as a “research movement.” Moreover, both the FBI and the congressional resolution condemning QAnon consider it a movement. While there are many specific beliefs that QAnon appears to encapsulate (e.g., Satanic pedophilia), there is no one official version. Like other conspiracy theories, QAnon is ill-defined and can be molded to accommodate any new cir-cumstance or evidence. Thus, we use the simple feeling ther-mometer instrument to gauge general feelings toward the QAnon movement.3 
+
+In August 2018, the average thermometer score among Floridians was 24. Two years later, a June 2020 sample of Flo-ridians rated the QAnon movement 21, on average. For con-text, respondents were also asked to rate Fidel Castro, a much reviled figure in Florida. QAnon was rated higher than the dictator, on average, by only 2 points. The broader American public rated QAnon 21 in August 2019, 25 in March 2020, 24 in June 2020, and 16 in October 2020, on average. Figure 1A, which plots these quantities, reveals no growth in QAnon sup-port over time. Further, we find that this stability in averages is not masking bimodality. Histograms for each year, which provide supporting evidence to this effect, appear in the ap-pendix. Simply put, QAnon is relatively unpopular, and stably so, over time. 
+
+Next, we consider the relationship betweenQAnon support and both partisanship and ideological self-identifications in order to decipher whether QAnon support can be character-ized as “far right.” For this and the remaining analyses, we employ the March 2020 national data in the main text and replicate all analyses using the July 2019 national data in the appendix. We additionally replicate our findings using re-sponses to an alternative question about QAnon belief in the October 2020 national data. In figures 1B and 1C, we plot the QAnon thermometer responses against standard measures of partisanship and ideology, along with LOWESS curves. For both orientations, we observe parabolic relationships whereby self-identified “strong” partisans and “extreme” ideologues exhibit more support for QAnon than Independents or weak/ leaning partisans and ideological group identifiers. This find-ing, while congruent with a growing literature on the extremist roots of conspiracy beliefs (van Prooijen, Krouwel, and Pollet
+
+in the October 2020 poll corresponds with 7% of individuals agreeing or strongly agreeing with the statement, “I am a believer in QAnon.”
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAzWVpi6iVvena5rj51am47N2irqoR_v_nKFZJoWCEBsdUsrN8AjRvKeWYZbUnVsYSf7-Gb9RRljzdOLRwgx6Z0RIzXVeQnAz_8H1tZSvg89h9aScY05QUga7Um3Gs9HpyUjlKF03Q=w997-h1001-v0
+
+e31bc913-5d77-4177-abd9-10b9a22301d2
+
+1846 / Who Supports QAnon? Adam M. Enders et al.
+
+2015), is in stark contrast to prevailing narratives about the nature of QAnon support. Extremity of self-identification seems to matter more than partisan or ideological valence. 
+
+But, what exactly does extremism entail in this sense? Are people who identify as “extremely” ideological or “strong” partisans actually constrained ideologues and entrenched partisans? Perhaps, but analyses presented in the appendix show that individuals who rated the major parties most highly on 101-point feeling thermometers were least likely to support QAnon. Instead, we suspect that a confluence of the psychological correlates of political extremity, such as dark triad personality traits, the predisposition to share false in-formation online, and the acceptance of political violence, as well as conspiracy thinking, are behind support for QAnon. 
+
+Conspiracy thinking is a predisposition to view major events as the products of conspiracies. Not only is this pre-disposition consistently related to specific conspiracy theory beliefs (Miller 2020), but others have found that extreme political self-identifiers exhibit higher levels of conspiracy belief (van Prooijen et al. 2015). The dark triad is a conflu-
+
+ence of three primary antisocial personality traits—psychop-athy, Machiavellianism, and narcissism—that are correlated with both conspiracy theory beliefs and political extremism (Douglas et al. 2019). Correlations appear in table 1. 
+
+We observe weak but statistically significant correlations between partisan/ideological extremity and the psychological traits and nonnormative behavior. Correlations with QAnon support are considerably larger—up to 0.413 for dark triad personality traits. Thus, while self-identified partisan/ideo-logical extremitymay factor intoQAnon support, it seems that the type of extremity that undergirds such support has less to dowith traditional, left/right political concerns andmore to do with extreme, antisocial psychological orientations and be-havioral patterns. 
+
+Next, we turn to modeling QAnon support. A naive model ofQAnon supportmight includemeasures of partisanship and ideology and controls for standard sociodemographic charac-teristics. Because we know that the relationship between po-litical predispositions and QAnon support is parabolic, our baseline model also includes quadratic (squared) terms for
+
+Figure 1. A, Support for the QAnon movement over time. B/C, Relationship between QAnon support and political identities, with LOWESS curves and 95% 
+
+confidence bands. March 2020 data.
+
+Volume 84 Number 3 July 2022 / 1847
+
+each predisposition. But even this model seems inadequate given our exploration of political extremity and QAnon sup-port. Thus, we build on this model by adding conspiracy thinking, dark triad personality traits, the predisposition to share false information online, and acceptance of political vi-olence. We control for religiosity, education, age, income, gen-der, race, and ethnicity.4 
+
+Since partisanship and ideology are highly correlated, and the addition of quadratic terms additionally increases the variance inflation factors beyond common cutoffs, we present two models each—a reduced and full—for partisanship and ideology in table 2. In each case the coefficient on every sub-stantive predictor—except the acceptance of political vio-lence—is statistically significant. Importantly, the addition of psychological correlates in the full models nearly doubles the model R2 values. To better understand the substantive impact of the predictors, we present marginal effects graph-ically in figure 2.5 
+
+The magnitude of the marginal effects points toward two conclusions. First, QAnon is probably not a product of strong attachments to traditional political groups or objects, like the parties, candidates, or ideological labels. Not only do we ob-serve no difference in QAnon support by partisan or ideo-logical valence, the average difference in support between ex-treme identifiers and Independents/moderates is a maximum
+
+4. Question wording, measurement details, and full model results appear in the appendix. All variables are rescaled to range from 0 to 1 so that the magnitude of coefficients can be compared. 
+
+5. All predictions except for ideology are from the full partisanship model; other independent variables are held at their mean values. Mar-ginal effects of the psychological variables from the ideology model appear in the appendix.
+
+of 5 thermometer points. Second, QAnon support is consid-erably more strongly related to conspiracy thinking (10-point average difference from minimum value to maximum value), dark triad personality traits (23-point difference), and the pre-disposition to share false information online (19-point differ-ence) than (the strength of ) political orientations. Thus, QAnon support does appear to be born of extremity, albeit one founded in antisocial personality traits and nonnormative attitudes and behaviors.
+
+CONCLUSION Our findings show that QAnon’s large online presence may not translate into public support. Support for QAnon is meager and stable, revealing a chasm between news coverage and polling data. This comports with studies finding that on-line fake news and conspiracy theories are less influential than popularly assumed (Guess, Nagler, and Tucker 2019; Guess, Nyhan, and Reifler 2020). In other words, QAnon supportmay be deeper than it is wide. This does not imply that QAnon support cannot grow or become more influential, regardless of size. With Trump’s and other leaders’ continuing overtures to the group, QAnon could potentially become a larger move-ment, but we caution journalists about making such claims until there is evidence. 
+
+Furthermore, the far right lacks a monopoly on QAnon support in our polls. Rather, Q finds support among ex-treme/strong conservatives/Republicans and liberals/Democrats, alike. However, even this finding is somewhat illusory. Po-litical extremists are not merely farther to the poles along a unidimensional partisan or ideological continuum than their more moderate counterparts. Instead, extremity appears to define a second substantive dimension of political identifica-tion, as the parabolic relationships we uncover suggest: not left/right ideologues or steadfast partisans but people who, irrespective of political commitments, exhibit elevated levels of conspiracy thinking, dark triad traits, and nonnormative attitudes. QAnon supporters, like other conspiracy theorists (Enders 2019), do not love the parties or hold coherent, constrained policy positions. Political extremism is better cast as a toxic blend of partisan/ideological valence and other non-normative traits than as a deep entrenchment within the party system. 
+
+Our findings showcase the gap in our understanding and measurement of political extremism. People self-identifying as extremely conservative/liberal, for example, may not neces-sarily be expressing deep-seated partisan commitments or con-strained belief systems. While partisan and ideological valence are far from irrelevant, extremism likely requires additional ingredients. Political scientists have long sought to understand
+
+Table 1. Correlations between QAnon Support, Political Pre-dispositions, and Correlates of Conspiracy Beliefs
+
+Partisan Strength
+
+Ideological Strength
+
+QAnon Support
+
+Conspiracy thinking
+
+ .049*
+
+ .075***
+
+ .261***
+
+ Dark triad
+
+ .104***
+
+ .089***
+
+ .413***
+
+ Spread false 
+
+information
+
+ .140***
+
+ .062**
+
+ .398***
+
+ Accept violence
+
+ .110***
+
+ .098***
+
+ .344***
+
+Note. Pearson product-moment correlations. Partisan and ideological strength are “folded” (at the midpoint) versions of the partisanship and ideology measures. * p ! .05. ** p ! .01. *** p ! .001.
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAxk51RO-DayxTqEtcp92aJEZFRkHfg3cY5JQNgPdOf81WLNrU4pn9Rwipc6okKt89SFm-az-ebUFzOjEeWLBWadfXboXLxQaCrevFDYQzIAFI7T4J33bOt8Ah1Okl_is8iUtYq5UQ=w997-h736-v0
+
+f48af6dd-5dbb-47f6-8852-fd0cd57c708c
+
+Figure 2. Predicted QAnon thermometer scores with 95% confidence bands. March 2020 data.
+
+Table 2. OLS Regressions of QAnon Support on Explanatory Factors
+
+Partisanship Models
+
+ Ideology Models
+
+Reduced
+
+ Full
+
+ Reduced
+
+ Full
+
+Partisanship
+
+ 2.333***
+
+ 2.185*
+
+ (.096)
+
+ (.090)
+
+Partisanship2
+
+ .338***
+
+ .189*
+
+ (.096)
+
+ (.090)
+
+Ideology
+
+ 2.368***
+
+ 2.234*
+
+ (.098)
+
+ (.092)
+
+Ideology2
+
+ .311**
+
+ .212*
+
+ (.097)
+
+ (.091)
+
+Conspiracy thinking
+
+ .101***
+
+ .096**
+
+ (.030)
+
+ (.031)
+
+Dark triad
+
+ .222***
+
+ .216***
+
+ (.043)
+
+ (.043)
+
+Spread false information
+
+ .153***
+
+ .159***
+
+ (.028)
+
+ (.028)
+
+Violence attitudes
+
+ .028
+
+ .027
+
+ (.031)
+
+ (.031)
+
+Sociodemographic controls?
+
+ ✓
+
+ ✓
+
+ ✓
+
+ ✓
+
+R2
+
+ .128
+
+ .246
+
+ .131
+
+ .247
+
+Note. Ordinary least squares (OLS) coefficients with standard errors in parentheses. March 2020 national data. n p 1; 418. * p ! .05. ** p ! .01. *** p ! .001.
+
+Volume 84 Number 3 July 2022 / 1849
+
+Independents and their unwillingness to identify as partisans or ideologues; perhaps a new focus on extremists is needed. 
+
+The recent influx of extremist political activity in theUnited States should prompt researchers to further invest in the study of extremism—what it entails, what makes people hold such views, and what the consequences of those views are. These questions are especially pressing, given the polarized political climate in which extremism regularly carries the burdens of nor-mative concerns and democratic failures. We must be diligent in distinguishing traditional political identities andmotivations from other social and psychological ingredients of extremist behavior. To continue to conflate these two broad categories of motivations is to misdirect the development of strategies for addressing both conspiracy theory beliefs and extremist behavior. 
+
+REFERENCES 
+
+Collins, Ben. 2020. “How QAnon Rode the Pandemic to New Heights— and Fueled the Viral Anti-mask Phenomenon.” NBC News. https:// www.nbcnews.com/tech/tech-news/how-qanon-rode-pandemic-new -heights-fueled-viral-anti-mask-n1236695 (accessed August 15, 2020).
+
+Douglas, Karen, Joseph Uscinski, Robbie Sutton, Aleksandra Cichocka, Turkay Nefes, Chee Siang Ang, and Farzin Deravi. 2019. “Understanding Conspiracy Theories.” Advances in Political Psychology 40 (1): 3–35. 
+
+Enders, Adam. 2019. “Conspiratorial Thinking and Political Constraint.” Public Opinion Quarterly 83 (3): 510–33. 
+
+Guess, Andrew, Jonathan Nagler, and Joshua Tucker. 2019. “Less than You Think: Prevalence and Predictors of Fake News Dissemination on Facebook.” Science Advances 5 (1). 
+
+Guess, Andrew, Brendan Nyhan, and Jason Reifler. 2020. “Exposure to Untrustworthy Websites in the 2016 US Election.” Nature Human Behaviour 4:472–80. 
+
+Miller, Joanne M. 2020. “Psychological, Political, and Situational Factors Combine to Boost COVID-19 Conspiracy Theory Beliefs.” Canadian Journal of Political Science 53 (2): 327–34. 
+
+Pecorin, Allison. 2020. “Democrats Seek Intel on QAnon from DHS, FBI as Backers Join Congress.” ABC News. https://abcnews.go.com/Politics /democrats-seek-info-qanon-dhs-fbi-backers-join/story?idp74606137 (accessed December 26, 2020). 
+
+Pew. 2020. “QAnon’s Conspiracy Theories Have Seeped into U.S. Politics, but Most Don’t Know What It Is.” Pew Research Center (accessed August 15, 2020). 
+
+van Prooijen, Jan-Willem, Andre Krouwel, and Thomas Pollet. 2015. “Political Extremism Predicts Belief in Conspiracy Theories.” Social Psychological and Personality Science 6 (5): 570–78.

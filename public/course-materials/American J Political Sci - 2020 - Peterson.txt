@@ -1,0 +1,3187 @@
+https://lh3.googleusercontent.com/notebooklm/ANHLwAwXPCS-tiTasJz0YcMMPYoVw9kUQYW-3a4XAehPrrj2fjbLiENjlIVcqbwJtZxROEilyootBWGM-3KxAPh6Uu158rECMYXllJBCcuwsiUGsOh64WC7EYfzEWVDn1iQF3r88j2-kww=w89-h96-v0
+
+181ba53f-de23-43d8-b05d-050676132aa8
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAx5_Fl1ucumiMLWiXsbATur3scKqsXLAqww03JZ81vjXr6XJlHgjSjmo1H4JhHTGNaccc3MLQ46I9lQv0diz0Uw4ah1TeJ7VBO_3ty-3Q2LhrbdeYPnGCX_FKPROTOjPo6tTX4J3w=w89-h97-v0
+
+1540148a-dee8-4874-b691-dd8e51997565
+
+https://lh3.googleusercontent.com/notebooklm/ANHLwAy8t1OM8J8x9W3SycW_1y_Z0mUtUTdJL8ZabmVvWlJm_JFdSWw1DPijjl-V1cM6LV42tJVNxPOlvuWFn0_qwoSq1DZLBlRU4y3FxEx1t8qAkQq7j35lHUciN6N165OeQO8JAPtF=w228-h45-v0
+
+e63fda65-be64-40a3-9657-40047661338e
+
+Partisan Gaps in Political Information and Information-Seeking Behavior: Motivated Reasoning or Cheerleading? 
+
+Erik Peterson 
+
+Texas A&M University 
+
+Shanto Iyengar 
+
+Stanford University 
+
+Abstract: 
+
+Do partisan disagreements over politically relevant facts, and preferences for the information sources from which to obtain them, represent genuine differences of opinion or insincere cheerleading? The answer to this question is crucial for understanding the scope of partisan polarization. We test between these alternatives with experiments that offer incentives for correct survey responses and allow respondents to search for information before answering each question. We find that partisan cheerleading inflates divides in factual information, but only modestly. Incentives have no impact on partisan divides in information search; these divides are no different from those that occur outside the survey context when we examine web-browsing data from the same respondents. Overall, our findings support the motivated reasoning interpretation of misinformation; partisans seek out information with congenial slant and sincerely adopt inaccurate beliefs that cast their party in a favorable light. 
+
+Verification Materials: 
+
+The data and materials required to verify the computational reproducibility of the results, procedures, and analyses in this article are available on the 
+
+American Journal of Political Science 
+
+Dataverse within the Harvard Dataverse Network, at: https://doi.org/10.7910/DVN/6SRI9K. 
+
+Over the past three decades, heightened polariza-
+
+tion has made partisanship increasingly influ-ential in political life. Rank-and-file partisans 
+
+now hold such harsh views of their opponents (Iyen-gar, Sood, and Lelkes 2012; Mason 2018) that they avoid social interactions with out-party members (Huber and Malhotra 2017; Iyengar, Konitzer, and Tedin 2018). Par-tisan cues from polarized elites powerfully influence the candidate evaluations and policy views of their support-ers (Druckman, Peterson, and Slothuus 2013; Levendusky 2010). 
+
+At the frontier of these developments is the intru-sion of partisanship into the public’s factual beliefs (for reviews, see Bullock and Lenz 2019; Flynn, Nyhan, and Reifler 2017; Jerit and Zhao, 2020; Shapiro and Block-Elkon 2008). A number of studies find that partisans disagree about politically relevant facts on topics rang-ing from the performance of the economy (e.g., Bar-tels 2002; Bisgaard and Slothuus 2018; Schaffner and 
+
+Erik Peterson is Assistant Professor, Texas A&M University, Department of Political Science, 4348 TAMU, College Station, TX 77843 (erik.peterson@tamu.edu). Shanto Iyengar is Professor, Stanford University, Department of Political Science, Encina Hall West, Suite 100, Stanford, CA 94305 (siyengar@stanford.edu). 
+
+We acknowledge with gratitude financial support provided by the Hewlett Foundation and a Facebook Integrity Foundational Research Project award. We also thank John Bullock, Jamie Druckman, Jennifer Jerit, and Yusaku Horiuchi for their comments. 
+
+Roche 2017) to the details of health care policy (e.g., Berinsky 2017; Nyhan 2010). These divides raise the possibility that misinformation undermines voters’ abil-ity to hold elected officials accountable (Hochshild and Einstein 2015; Kuklinski et al. 2000; Shapiro and Block-Elkon 2008). 
+
+We assess two competing interpretations of polarized responses to information questions. In one, partisan di-vides reflect genuine differences in factual beliefs. In this 
+
+motivated reasoning 
+
+account, polarization has strength-ened partisans’ willingness to ignore or counterargue with credible facts that cast aspersions on their party or party leaders and, conversely, to uncritically accept false infor-mation that reflects favorably on their side (Gaines et al. 2007; Kraft, Lodge, and Taber 2015; Shapiro and Block-Elkon 2008). 
+
+A contrasting interpretation is that these divides re-flect insincere 
+
+partisan cheerleading 
+
+in which partisans knowingly distort their responses to survey questions to 
+
+American Journal of Political Science, 
+
+Vol. 65, No. 1, January 2021, Pp. 133–147 
+
+C©2020, Midwest Political Science Association DOI: 10.1111/ajps.12535 
+
+134 ERIK PETERSON AND SHANTO IYENGAR 
+
+signal support for their side (Bullock et al. 2015; Prior, Sood, and Khanna 2015; Schaffner and Luks 2018). In this view, partisans are in fact well informed, but they prefer to act misinformed in surveys. In essence, the cheerlead-ing account implies that the partisan divides over factual evidence measured in surveys are largely illusory. 
+
+We use survey experiments that incentivize respon-dents to correctly answer factual knowledge questions to implement new tests for distinguishing between these competing accounts (for previous applications of this ap-proach, see Bullock et al. 2015; Prior, Sood, and Khanna 2015). To understand the nature of partisan divides over politically relevant facts, and preferences for the informa-tion sources from which to obtain them, we introduce three changes to the incentive-based experimental design used in earlier work. 
+
+First, whereas previous studies incentivize partisans to correctly answer questions about past political con-troversies (Bullock and Lenz 2019, 339), we assess their responsiveness to incentives on highly salient controver-sies ongoing at the time we fielded our surveys. Second, we broaden the range of outcome variables to include partisan divides in information search. Before answer-ing each information question, respondents selected one news report to read from a set of two partisan news sources, two non partisan news sources, and an expert source. Information-seeking behavior is no less subject to a cheerleading interpretation since, in the context of the typical unincentivized survey, partisans may support their party by expressing an affinity for copartisan news sources they do not ordinarily use (see, e.g., Prior 2013, 114–115). Third, we validate our survey results by using behavioral web-browsing data to compare the informa-tion search preferences of respondents in the survey to their real-world news consumption outside it. 
+
+Overall, our findings support motivated reasoning rather than the cheerleading interpretation of partisan di-vides in information and information-seeking behavior. First, while incentives reduce partisan divides in informa-tion, substantial partisan gaps—on the order of 60 to 70% of the initial unincentivized divide—persist even when in-centives are present (see also Berinsky 2018). Second, the provision of incentives has no bearing on information selection. Partisans seek out information from coparti-san media sources to the same extent whether incentives are available or not. Moreover, the divides in information search we observe in the survey context mirror partisan divides in online news consumption registered by the same individuals outside the survey setting. 
+
+We next review previous studies of political misin-formation and consider the debate over the appropri-ate interpretation of partisan divides over political facts. 
+
+We then introduce and implement a research design that combines survey experiments regarding political misin-formation with behavioral web-browsing data to con-sider partisan divides in information and information-seeking behavior. 
+
+From “Dark Areas of Ignorance” to “Alternative Facts” 
+
+Political scientists’ interest in political knowledge dates back at least to the mid-twentieth century. Following the Second World War, surveys probing the depth of the pub-lic’s political information revealed “dark areas of igno-rance” (Kreisberg 1949). Most Americans were unable to name prominent political figures or recognize cur-rent debates in the foreign or domestic policy arenas (Al-mond 1950). These findings revived earlier debates over the implications of information deficits for representative democracy (Lippman 1922). 
+
+This classic work on political knowledge, which re-flected the assumptions of democratic theory, primarily focused on the distinction between the informed and the uninformed (Delli Carpini and Keeter 1996). Only later did researchers consider the possibility that some respon-dents were misinformed (Kuklinski et al. 2000) and that incorrect answers to knowledge questions reflected parti-san bias rather than simple ignorance. 
+
+In an influential article, Bartels (2002) identified sys-tematic partisan biases in answers to factual questions dat-ing back to the 1980s. Despite significant improvements in inflation and unemployment over the 8 years of the Rea-gan presidency, Democrats offered generally pessimistic views of national economic conditions. Bartels concluded partisans’ perceptions of the economy, rather than reflect-ing real-world conditions, showed “substantial partisan bias” (2002, 136; see also Bisgaard 2015; Schaffner and Roche 2016). 
+
+There are also partisan differences in consumer con-fidence (Enns, Kellstedt, and McAvoy 2012; Mian, Sufi, and Khoshkhou 2017) and awareness of policy initiatives pursued by incumbents (Gaines et al. 2007). These dis-crepancies are greater for topics on which the news media provides more extensive coverage, suggesting partisans selectively interpret media coverage (Jerit and Barabas 2012; Kim and Kim 2019; Schaffner and Roche 2017). Note, however, that despite significant partisan gaps in economic perceptions and expectations, indicators of economic behavior (e.g., purchasing) showed no par-tisan differences (McGrath 2017). This disconnect be-tween attitudes and behavior is suggestive of the current 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 135 
+
+controversies (described below) that surround explana-tions for misinformed survey responses. 
+
+Recent studies make clear that misinformation ex-tends beyond questions of economic performance and policy to false claims about Barack Obama’s religion and country of birth, conspiracy theories that the govern-ment had advance knowledge of the 9/11 terrorist attacks, and beliefs about climate change (see, e.g., Bullock and Lenz 2019; Flynn, Nyhan, and Reifler 2017; Hochshild and Einstein 2015). Moreover, inaccurate beliefs are not lim-ited to some fringe element of the electorate. On survey items we later examine in this study, partisan differences approach 50 percentage points on some matters related to misstatements made by Donald Trump, including widely publicized claims about illegal voting in the 2016 elec-tion and the alleged wiretapping of Trump Tower by the Obama administration. 
+
+Before we proceed, it is important to note that, even in contemporary politics, partisan divisions over politi-cal information are not always present. Graham (2020) and Roush and Sood (2019) conduct systematic assess-ments of political information and identify many top-ics with modest or nonexistent partisan divides. At the same time, our preceding review establishes some issues on which Republicans and Democrats endorse different sets of facts. In what follows, we focus on these areas of intense partisan disagreement as they underlie concerns about the implications of political misinformation, repre-sent an important setting for understanding the sincerity of the misinformation measured in surveys, and have not been used in previous studies that provide monetary incentives for correctly answering political information questions. 
+
+Motivated Reasoning and Misinformation 
+
+What explains these partisan divides over facts? One common interpretation is that they stem from moti-vated reasoning. Psychologists have uncovered several information-processing heuristics, including confirma-tory bias and motivated skepticism (Kunda 1990; Lord, Rose, and Lepper 1979), that allow individuals to protect their identity from dissonant information. These biases in information processing are supplemented by other mech-anisms that shape the information people encounter in the first place—in particular, theories of cognitive consis-tency (Festinger 1957) in which selective exposure limits the public’s encounters with information at odds with their beliefs. 
+
+This motivated reasoning account is well suited to ex-plaining the adoption of party-congenial misinformation in contemporary politics (Flynn, Nyhan, and Reifler 2017; Gaines et al. 2007; Kraft, Lodge, and Taber 2015; Lodge and Taber 2013; Miller, Saunders, and Farhart 2016). Ris-ing elite polarization and growing antipathy toward the other political party have strengthened partisans’ motiva-tion to ignore credible facts that cast aspersions on their party or party leaders and, conversely, to accept false in-formation that reflects favorably on their side. These ten-dencies are complemented by a high-choice information environment that creates an opportunity for partisans to screen out uncongenial information (Iyengar and Hahn 2009; Stroud 2011) and encounter misinformation from political elites (e.g., Bisgaard and Slothuus 2018). This is particularly relevant following the election of Don-ald Trump, a politician willing to make misleading and false claims on a regular basis. The current information environment thus creates multiple opportunities and in-centives for partisans to accept misinformation. 
+
+Importantly for what follows, from this perspective the divides in political information that result from moti-vated reasoning are real and troubling. Individuals accept misinformation and go on to incorporate it into their future political decisions (see, e.g., Flynn and Krupnikov 2019; Swire et al. 2017; Thorson 2016). 
+
+Before proceeding, we note that motivated reasoning is not the only mechanism through which the genuine adoption of factually inaccurate beliefs may occur. For instance, differential beliefs regarding source credibility and evidence quality may produce similar partisan di-vides through a process that does not depend on biased information processing (Druckman and McGrath 2019). Our design does not let us distinguish motivated reason-ing from these other processes. Such examinations remain an important topic for future work.1 
+
+Misinformation as Partisan Cheerleading 
+
+In contrast to the preceding account of motivated rea-soning, in which partisan divides over facts are genuine, a recent alternative perspective suggests these divides are il-lusory. Under this account, typically referred to as partisan cheerleading (see, e.g., Bullock and Lenz 2019), partisans 
+
+1Our use of 
+
+motivated reasoning 
+
+to describe the process producing sincerely held inaccurate beliefs follows the vast misinformation literature in which motivated reasoning is identified as “the most useful framework for understanding misperceptions about politics” (Flynn, Nyhan, and Reifler 2017, 131; see also Miller, Saunders, and Farhart 2016). 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+136 ERIK PETERSON AND SHANTO IYENGAR 
+
+know the correct answer to knowledge questions, but they prefer to offer an incorrect, party-congenial survey response to support their side (Bullock et al. 2015; Prior, Sood, and Khanna 2015; Schaffner and Luks 2018). 
+
+These contrasting interpretations of existing evidence have led scholars to develop research designs that can dis-tinguish motivated reasoning from partisan cheerlead-ing. As described below, one widely used approach is to provide financial incentives that reward respondents for accurate answers to information questions. To the extent partisan differences in information shrink or van-ish when researchers incentivize respondents to provide accurate answers, it strengthens the interpretation that incorrect responses represent “cheerleading” rather than genuine misinformation. 
+
+In the first attempt to distinguish between these al-ternative accounts of misinformation, Prior and Lupia (2008) offered respondents $1.00 per correct answer be-fore asking a battery of 14 factual questions. Unfortu-nately, the questions generally lacked partisan valence, focusing instead on candidate issue positions and other matters relating to the 2004 election. Respondents incen-tivized to give accurate answers scored higher on infor-mation; however, the study did not examine the effects of incentives on partisan differences in information. 
+
+A second study, conducted in 2008 (Bullock et al. 2015), provided more persuasive evidence on the “cor-rective” impact of financial incentives. The partisan dif-ference in information, which was substantial among respondents offered no incentive, fell by half among re-spondents informed that their chances of winning a $200 gift certificate would increase with correct answers. In a follow-up study, the researchers offered respondents vary-ing amounts of money (ranging from $0.10 to $1.00) for correct responses; as they expected, the partisan gap in information fell most dramatically in the highest payoff condition. Finally, another 2008 study (Prior, Sood, and Khanna 2015) asked respondents about economic con-ditions under the Bush administration and paid $1.00 per each correct response. The partisan difference in cor-rect responses fell substantially in the incentivized group, leading the authors to conclude that partisan bias in per-ceptions of economic conditions represents “an artifact of partisan consistency pressures” (510). 
+
+Contrary to these studies, recent work on the accep-tance of rumors (Berinsky 2018) reaches the conclusion that incentives and related interventions designed to in-crease the accuracy of survey responses have little im-pact on strongly valenced partisan beliefs. In this study, incentives—operationalized using the time respondents would be required to spend on the survey rather than a direct monetary payment—did little to weaken Repub-
+
+licans’ belief that former President Obama is a Muslim, or Democrats’ willingness to state that members of the Bush administration knew about the 9/11 attacks in ad-vance. Across multiple studies that deployed three differ-ent techniques for boosting response accuracy, partisan differences in rumor acceptance did not change. Berin-sky’s conclusion? “Expressive responses to rumor ques-tions from across the political spectrum are relatively rare. More generally, these results suggest that—contrary to the concerns raised by some scholars such as Bullock et al. (2015)—survey responses serve as a window into the underlying beliefs and true preferences of the mass public” (Berinsky 2018, 213). 
+
+In summary, there is agreement that on many polit-ical information questions, Democrats and Republicans gravitate to survey responses that cast their party in a favorable light. There is disagreement, however, over the meaning of these divides. Some scholars discount the evi-dence of considerable misinformation as an artifact, citing impression management objectives that motivate parti-sans to answer incorrectly. Others dispute this account, believing that misinformation is a genuine phenomenon rooted in polarization and the availability of biased information. 
+
+Research Design 
+
+We introduce a modified version of the experimental de-sign previously used to identify the contribution of cheer-leading to partisan divides over political misinformation. There are three stages to our modified incentive design. First, following earlier studies, we randomly assign sur-vey respondents to either receive or not receive incentives for correctly answering political knowledge questions. In both the surveys we consider, these incentives were $0.50 per question for a five-item information battery. Respon-dents assigned to receive incentives were informed of this before answering the information questions. In a point we later revisit when discussing the implications of our findings, this amount falls in between the incentive levels used in previous studies. It is less than those in study 1 ($1.00) and study 2 ($2.00) of Prior, Sood, and Khanna (2015), but greater than the incentives in study 1 of Bullock et al. (2015), which provided a lottery entry worth approximately $0.17, and some conditions of study 2 of Bullock et al. (2015), which varied incentive levels from $0.10 to $1.00. 
+
+The second stage of this design departs from ear-lier studies. Before answering each question, respondents selected a news article on the topic to read. They saw a menu of five information sources, each accompanied by 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 137 
+
+an article headline, and selected one to view.2 They were then taken to a brief report (approximately two para-graphs in length) drawn from a real story on the topic available from that source. 
+
+While the specific sources varied across each survey item, the choice set remained consistent. In each case, respondents could choose to read information from one left-leaning source (i.e., MSNBC or 
+
+Huffington Post), 
+
+one right-leaning source (i.e., Fox News or 
+
+Breitbart), 
+
+one source with specialized expertise (e.g., excerpts from a Bureau of Labor Statistics press release in the case of a question about the unemployment rate), or from a pair of mainstream news sources (i.e., CNN or 
+
+New York Times). 
+
+Finally, in the third stage, after reading the report they selected, respondents answered the political infor-mation question and also indicated how confident they were (ranging from “not at all sure” to “extremely sure”) of their answer. 
+
+This design accomplishes two goals. First, the random assignment of incentives provides insight into the extent to which divides in factual beliefs are inflated by parti-sans knowingly providing incorrect, but party-congenial, answers to the questions. We assess this inflation by com-paring the magnitude of the partisan divide across the treatment conditions. This element of the design allows us to extend prior studies of partisan cheerleading to a set of new hyper-partisan information items centered around controversies that were ongoing as we fielded our studies (we discuss the content of the information questions in the next section). 
+
+Second, the information search component of our de-sign allows us to move beyond previous work and consider whether the availability of incentives changes individuals’ preferences for information sources. Of particular inter-est is the impact of incentives on partisan differences in news choice. We can observe whether partisan cheerlead-ing applies not only to factual beliefs, but also to partisan selective exposure. Some past work suggests this possibil-ity could occur if, in surveys, partisans feel pressure to express an affinity toward news sources associated with their side, but which they typically avoid when looking for accurate information in the real world (e.g., Prior 2013). Accordingly, this outcome yields important insight into the reputation of media outlets. If these reputations are weakly held and partisans knowingly trade off unbiased for biased news coverage in the unincentivized condi-tions, they should alter their search preferences in favor of unbiased sources when provided with incentives for correct answers. 
+
+2Appendices A.2 and A.3 in the supporting information (SI) show how the news selection tasks appeared to respondents. 
+
+The final piece of our research design is the ability to observe the news consumption of some survey respon-dents outside the survey context. Although we discuss this feature of the study in more detail later, some survey respondents had previously installed an application that tracked their web-browsing behavior. We can therefore compare the news choices they made in the survey with the choices that characterize their everyday web-browsing behavior. This provides a rare opportunity to understand which, if any, of the experimental conditions in our survey corresponds with the naturally occurring incentives for information acquisition that respondents face in the real world. While we refer to this real-world browsing data, at times, as a measure of information search, we note here these real-world media consumption choices reflect a mix of information acquisition, desire for congenial informa-tion and interest in the nonpolitical material available from these media sources (see, e.g., Stroud 2011). 
+
+Data 
+
+We collected data using this modified incentive design in two surveys administered by YouGov. These surveys use the firm’s standard procedure of drawing a sample from its panel that is matched to the voting-age population on key demographic characteristics (e.g., Vavreck and Iyengar 2011). The first, conducted in September 2018, had 1,000 respondents. The second, conducted in March 2019, had 1,700 respondents.3 Because of their similar for-mats, we pool the surveys together for analysis, although in SI Appendix B we note the results are no different when we consider the surveys separately. 
+
+This matched sampling approach is also used in other academic surveys (e.g., the Cooperative Congressional Election Study). We note here that the unweighted sam-ple used in our primary analysis is older and more highly educated than a nationally representative sample would be (see SI Table A1 for demographic information). At the same time, there is little evidence this contributes to our findings, particularly as we see similar results in robust-ness checks that incorporate survey weights to correct for these deviations between our realized sample and nation-ally representative targets (see SI Appendix B). 
+
+Our information items focused on several topics cov-ered in prior studies of political misinformation (e.g., national economic conditions and climate change), as 
+
+3Although we do not incorporate this feature of the data into our current analysis, there was a panel structure to these surveys. A total of 954 individuals completed both surveys. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+138 ERIK PETERSON AND SHANTO IYENGAR 
+
+TABLE 1 Misinformation Items 
+
+Topic Item Incorrect Response Party Valence 
+
+Climate Change 
+
+(Survey 1) 
+
+The vast majority (over 90%) of climate scientists believe that global warming is an established fact and that it is most likely caused by man-made emissions. 
+
+False Republican 
+
+Cohen Plea 
+
+(Survey 2) 
+
+Michael Cohen, Donald Trump’s personal lawyer, pleaded guilty to fraud and illegal campaign finance charges in August 2018. 
+
+False Republican 
+
+Firearm Sales 
+
+(Survey 2) 
+
+Forty percent of firearm sales in the U.S. occur without a background check. 
+
+True Democratic 
+
+Immigrant Crime 
+
+(Survey 1) 
+
+Illegal immigrants commit violent crime at a significantly higher rate than legal American citizens. 
+
+True Republican 
+
+Obama Wiretap 
+
+(Surveys 1 & 2) 
+
+Former President Obama ordered wiretaps on Donald Trump’s phones. 
+
+True Republican 
+
+Voter Fraud 
+
+(Surveys 1 & 2) 
+
+Millions of illegal votes were cast in the 2016 presidential election. 
+
+True Republican 
+
+Unemployment 
+
+(Surveys 1 & 2) 
+
+Compared to January 2017, has the level of unemployment in the country increased, stayed the same, or decreased? 
+
+Increased 
+
+or 
+
+stayed the same 
+
+Democratic 
+
+well as new questions bearing on inaccurate and con-troversial statements associated with President Trump. Table 1 displays the information items in the two surveys. 
+
+As Table 1 shows, we include items with different partisan valence, which we define as the directional mo-tivation to provide party-congenial, inaccurate answers. Depending on the item, these pressures can apply to either Democrats or Republicans. The items regarding unem-ployment under the Trump administration and firearm sales push Democrats toward the incorrect answer. Since most of the remaining items address inaccurate state-ments by President Trump (e.g., his unsubstantiated claim of widespread voter fraud in the 2016 election), the pres-sure to treat these statements as accurate is concentrated among Republicans. 
+
+Hypotheses 
+
+Motivated reasoning and cheerleading are two alterna-tive explanations for partisan differences in beliefs about current issues and events. Proponents of cheerleading ar-gue that polarization creates short-term psychic rewards for partisans to offer knowingly incorrect responses to 
+
+knowledge questions, even as it does not induce genuine belief in these party-congenial falsehoods. In contrast, discussions of motivated reasoning posit that party po-larization is so intense that partisans accept claims that cast their party in a favorable light, even when the claims are at odds with the facts. 
+
+Our design permits us to compare these competing hypotheses using three tests. First, we assess the impact of financial incentives on partisan divides in answers to the political knowledge questions. If cheerleading is the predominant explanation for these differences, providing incentives should markedly weaken the partisan divide, as partisans would be expected to revert to their “true” state of knowledge when responding. On the other hand, if the motivated reasoning hypothesis holds, then misin-formation is genuine and incentives should have minimal effects on partisan divides across these items. 
+
+Second, we apply the same logic to assess the ef-fect of financial incentives on respondents’ information-seeking behavior and, specifically, whether the presence of incentives encourages the use of unbiased or nonpar-tisan news providers (versus copartisan news sources). Again, if cheerleading is at work, we would expect reliance on partisan sources to be weakened among incentivized 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 139 
+
+respondents, whereas the motivated reasoning account predicts no differences in information preferences across the experimental conditions. 
+
+Finally, we were able to directly compare news preferences exhibited in both the incentivized and unincentivized conditions with naturally occurring news consumption. This was possible because we recruited a subset of our experimental participants from an online panel whose survey responses could be linked to their daily web-browsing behavior. Here, the cheerleading ac-count predicts greater consistency of news preferences be-tween the incentivized condition and everyday browsing behavior, whereas the unincentivized condition should deviate from both the incentivized condition and every-day behavior (precisely because in the unincentivized condition, cheerleading is operative). On the other hand, the motivated reasoning paradigm leads us to expect the incentivized and unincentivized conditions will be similar to each other and to naturally occurring browsing behavior. 
+
+Results: Partisan Divides in Information 
+
+We begin by documenting partisan divides in informa-tion among participants in the unincentivized condition of our surveys. For each item, Table 2 displays the share of Democrats providing the correct answer, the share of Re-publicans providing the correct answer, and the divide be-tween these groups, operationalized as the absolute value of the difference between the share answering correctly in each group. The items are sorted from those with the most pronounced gaps between parties to those with the smallest gaps. 
+
+Table 2 reveals substantial partisan divides across the items we consider. Notably, the smallest divides occur on the misinformation items that overlap with those in-cluded in earlier studies that find partisan cheerleading explains a substantial proportion of the partisan divide over political information (i.e., the items regarding unem-ployment). This speaks to the particularly divisive nature of the new items we examine, which derive from contro-versies that were ongoing as the surveys were fielded. 
+
+To consider how the availability of incentives affected these substantial partisan divides, we stack each respon-dent’s answers to the political information questions to conduct a pooled analysis of these different items. We follow previous studies (e.g., Bullock et al., 2015) and standardize the direction of these outcome measures. Specifically, we code responses so that the information 
+
+items are oriented in a similar manner, with the answer that is party-congenial for Democrats always receiving the higher value. So, for the items where the misinformed answer is party-congenial for Democrats, incorrect an-swers are coded as 1 and correct answers are coded as 0. This is reversed on items where the misinformed an-swer is party-congenial for Republicans. Here, incorrect answers are coded as 0 and correct answers are coded as 1. This allows us to readily interpret partisan differences that emerge across these different items. 
+
+Respondents were not provided with a “Don’t know” option across these items, meaning they had to provide some form of response. In this respect, our study is similar to the first study in Bullock et al. (2015) and Prior, Sood, and Khanna (2015), but it departs from the conditions in the second study of Bullock et al. (2015), in which partisan divides over fact decline when a “Don’t know” option is made available. However, in later sections we also incorporate a measure of response certainty that allows us to isolate firmly held inaccurate beliefs. 
+
+We use the following specification, where 
+
+i 
+
+indexes respondents and 
+
+k 
+
+indexes the different questions, to ex-amine partisan differences in political information in the baseline and incentive treatment conditions: 
+
+Informationik 
+
+= 
+
+0 
+
++ 
+
+1Democrati 
+
++ 
+
+2Incentive 
+
+Treatmenti 
+
++ 
+
+3Democrati 
+
+× 
+
+Incentive Treatmenti 
+
++ 
+
+k 
+
++ 
+
+ik 
+
+. 
+
+Democrat 
+
+is a binary variable with a value of 1 for Democrats and 0 for Republicans. We include those who “lean” toward one of the parties with the party they are close to. Because they do not face directional pressures in the same way as partisans, we exclude “pure” Indepen-dents from the analysis.4 The coefficient on this variable 
+
+(1) 
+
+indicates the magnitude of the partisan informa-tional divide in the baseline, unincentivized condition. The interaction between partisanship and the incentive treatment 
+
+(3) 
+
+captures the impact of the incentive treat-ment on this divide. We also include fixed effects for each survey item 
+
+(k) 
+
+and cluster standard errors by re-spondent to account for the multiple observations per respondent and because we assigned treatments at the respondent level. 
+
+Table 3 displays the results of this analysis. The first column considers all partisan respondents. There is a substantial partisan divide (.32) over political informa-tion (95% confidence interval [CI] [0.31, 0.33]). Since the information items have a dichotomous metric, the 
+
+4See SI Appendix B.2 for the results among this group. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+140 ERIK PETERSON AND SHANTO IYENGAR 
+
+TABLE 2 Partisan Information Divides in Unincentivized Conditions 
+
+Topic Share Correct (Dem) Share Correct (Rep) Partisan Divide 
+
+1 Immigrant Crime (Survey 1) 0.97 0.45 0.52 2 Voter Fraud (Survey 2) 0.86 0.38 0.48 3 Obama Wiretap (Survey 2) 0.98 0.53 0.45 4 Voter Fraud (Survey 1) 0.92 0.49 0.43 5 Obama Wiretap (Survey 1) 0.98 0.58 0.40 6 Firearm Sales (Survey 2) 0.22 0.56 0.34 7 Climate Change (Survey 1) 0.96 0.63 0.33 8 Cohen Plea (Survey 2) 0.93 0.80 0.13 9 Unemployment (Survey 1) 0.74 0.85 0.11 
+
+10 Unemployment (Survey 2) 0.72 0.80 0.08 
+
+observed divide amounts to roughly one-third the range of the outcome variable. 
+
+Moving to the other coefficient of interest, the inter-action between partisanship and the incentive treatment is negative and statistically significant (−0.10, 95% CI [−.12, −.08]). Incentives reduce the partisan divide to two-thirds of the magnitude in the unincentivized condi-tions. Consistent with earlier work, this amounts to some evidence of cheerleading (e.g., Bullock et al. 2015, Prior, Sood, and Khanna 2015). 
+
+The next three columns examine this pattern across three subsets of the data: strong partisans (column 2), information items for which Democrats were motivated to answer incorrectly (column 3), and information items where the incorrect answer was party-congenial for Re-publicans (column 4). There is some minor variation in the initial magnitude of these partisan divides across these different specifications, but the effect of incentives re-mains similar and statistically significant across all three. 
+
+Though the partisan gap in information closes due to incentives, it is by no means eliminated. Large parti-
+
+san divisions remain in the incentivized condition. This means that cheerleading alone is an insufficient explana-tion for the partisan information divide. In our primary specification from column 1 that includes all items and all partisan respondents, the partisan divide is .22 (95% CI [0.19, 0.24]) among incentivized respondents. Across the other specifications the pattern is similar; roughly 60 to 70% of the initial partisan differences persist even when incentives are available. 
+
+The persistence of partisan divides in factual beliefs among the groups provided with incentives is noticeably higher than in previous work. In the closest comparison, Bullock et al. (2015, 521) find that only 40 to 45% of the initial partisan gaps remain when incentives are made available.5 This speaks to the more persistent attachment to party-congenial misinformation when survey items ad-dress highly polarizing topics, as in our studies. While the 
+
+5Other studies of misinformation are more difficult to compare, as they either focus on correct responses rather than partisan di-vides (e.g., Prior, Sood, and Khanna 2015) or, by design, are only conducted among members of one party (e.g., Berinsky 2018). 
+
+TABLE 3 Effect of Incentives on Partisan Information Divide 
+
+All Partisans Strong Partisans Dem-Valenced Rep-Valenced 
+
+(Intercept) 
+
+0.64∗ 0.59∗ 0.56∗ 0.59∗ 
+
+(0.02) (0.02) (0.02) (0.02) Democrat 
+
+0.32∗ 0.38∗ 0.19∗ 0.38∗ 
+
+(0.01) (0.02) (0.02) (0.02) Incentive Treatment 
+
+0.07∗ 0.09∗ 
+
+0.00 
+
+0.11∗ 
+
+(0.02) (0.02) (0.02) (0.02) Democrat × Incentive Treatment 
+
+−0.10∗ −0.12∗ −0.08∗ −0.11∗ 
+
+(0.02) (0.02) (0.03) (0.02) N 11,761 6,197 3,844 7,917 
+
+Note: 
+
+Robust standard errors, clustered by respondent, are in parentheses. Models include item fixed effects. 
+
+∗p < 
+
+.05. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 141 
+
+treatment effects of incentives across these studies are of similar magnitude to those observed in Bullock et al. (2015), the initial partisan gap on these items is much larger than previously obtained in incentive-based de-signs. 
+
+We also note that when isolating the information items about unemployment in SI Table B.1, we observe a pattern of findings similar to previous work that considers this topic. Our findings diverge from previous studies due to the inclusion of new, more divisive information questions.6 
+
+Incorporating Respondent Certainty about Misinformation 
+
+The preceding analysis may capture a pattern in which partisans choose the incorrect answer when it is party-congenial, but they are not particularly confident in their response. For this reason, several studies note the need to consider the certainty with which respondents hold their beliefs (e.g., Graham 2020; Pasek et al. 2015). 
+
+To incorporate confidence, we asked respondents how certain they were of their answer on a 5-point scale after each information question. We now reassess the par-tisan divide and the effects of incentives only among those respondents who were certain of their responses to the information questions (i.e., state they are “very” or “ex-tremely” sure of their answer, the top two categories of the 5-point certainty scale) and then estimate the effects of incentives on partisan divides in political information.7 
+
+These results are displayed in Table 4, using the same model specification estimated among all partisan respondents (column 1) and different subsets of the data (columns 2–4). While the initial magnitude of these par-tisan divides is smaller across the various specifications in this more stringent coding, the pattern is largely con-sistent with our earlier analysis. Although the availability of incentives reduces partisan gaps on the information items, large divides remain even in the presence of incen-tives. In the pooled analysis that incorporates all items and partisan respondents, the initial gap between parti-sans shrinks to roughly two-thirds its initial size when 
+
+6In SI Appendix B.2, we find no evidence these baseline divides in our study are due to the sample composition and show large divides exist on similar items asked in other surveys. 
+
+7If incentives affect how certain respondents are of their responses, this specification risks inducing posttreatment bias in our estimates (see, e.g., Montgomery, Nyhan, and Torres 2018). However, we find no direct effect of incentives on response certainty and, in SI Appendix B.9, observe similar findings when we estimate an alternative specification that incorporates the certainty with which misinformation is held, but is not subject to these concerns. 
+
+respondents receive incentives. This remaining gap of .27 (95% CI [0.24, 0.30]) is both substantial and statistically significant.8 
+
+In this sense, our findings hold even when we account for the possibility that many individuals do not hold their beliefs with a high degree of certainty and are aware they may be wrong (Graham, 2020). There are substantial par-tisan divides over questions of fact that remain in the presence of incentives when we limit the focus to those who are confident in their answers to these questions. 
+
+Partisan Divides in News Choice 
+
+We turn next to the impact of incentives on news choice. We group the news sources available to respondents into four categories: a copartisan news source (e.g., Fox News for Republicans), an out-partisan news source (e.g., 
+
+Huff-ington Post 
+
+for Republicans), the two mainstream (i.e., nonpartisan) news sources, and the domain-specific ex-pert source.9 
+
+In the control condition lacking incentives, the par-tisan divide in news choice is glaring. Across the news selections made in the control condition of the surveys (i.e., those where respondents were not assigned incen-tives for correct answers to the information questions), 29% of selections went to a copartisan source, 26% went to the expert source, 38% to one of the two mainstream news sources, and only 7% to an out-party source. This 4:1 ratio in the selection of copartisan sources, relative to out-partisan sources, is far from a complete partisan echo chamber, but it indicates that partisans prefer in-party to opposing sources by a wide margin. This is consistent with recent observational studies of online web-browsing behavior, which find that, with respect to political news, partisans differ in their typical media diet even as they do not completely retreat into echo chambers (see, e.g., Flaxman, Goel, and Rao 2016; Guess 2019; Peterson, Goel, and Iyengar, forthcoming).10 
+
+How did the availability of incentives change these baseline patterns of news consumption? The partisan cheerleading hypothesis leads us to expect a decline in re-liance on congenial sources in the incentivized condition. Conversely, the motivated reasoning hypothesis predicts 
+
+8SI Table B12 also shows partisan divides remain among low-certainty respondents even when incentives are made available. 
+
+9We observe similar results when using a finer distinction between the different news sources. See SI Appendix B. 
+
+10As we later document in greater detail, these divides are also com-parable to those that emerge in real-world media choices outside the survey setting. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+142 ERIK PETERSON AND SHANTO IYENGAR 
+
+TABLE 4 Effect of Incentives on Partisan Information Divide (Certain Respondents) 
+
+All Partisans Strong Partisans Dem-Valenced Rep-Valenced 
+
+(Intercept) 
+
+0.59∗ 0.52∗ 0.57∗ 0.50∗ 
+
+(0.02) (0.03) (0.03) (0.02) Democrat 
+
+0.38∗ 0.46∗ 0.18∗ 0.48∗ 
+
+(0.02) (0.02) (0.02) (0.02) Incentive Treatment 
+
+0.09∗ 0.10∗ 
+
+−0.02 
+
+0.15∗ 
+
+(0.02) (0.03) (0.02) (0.03) Democrat × Incentive Treatment 
+
+−0.11∗ −0.13∗ −0.08∗ −0.15∗ 
+
+(0.02) (0.03) (0.03) (0.03) N 8,047 4,477 2,239 5,808 
+
+Note: 
+
+Robust standard errors, clustered by respondent, are in parentheses. Models include item fixed effects. 
+
+∗p < 
+
+.05. 
+
+that partisans’ preferences for biased information will be unaffected by incentives. We distinguish between these accounts by estimating the effects of incentives across the different news choice outcomes using the following specification, in which we regress an indicator variable for news selection on the incentive treatment and a fixed effect for each information item: 
+
+News Choiceik 
+
+= 
+
+0 
+
++ 
+
+1Incentive 
+
+Treatmenti 
+
++ 
+
+2 
+
+Democr ati 
+
++ 
+
+k 
+
++ 
+
+ik 
+
+. 
+
+Table 5 displays the results of these regressions. The first column shows the effects of the incentive treatment on the probability that a respondent selected a coparti-san source (i.e., the outcome is an indicator variable for whether a copartisan source was selected). The second column does this for the expert source. The third column uses a binary indicator for selecting one of the two main-stream news sources as an outcome. Finally, the fourth column does so for the out-partisan source. 
+
+A similar pattern holds across all these outcomes. In-centives have no effect whatsoever on news choice. For instance, in column 1 the point estimate for the effect of incentives on the probability of selecting a copartisan news source is negative, but substantively small and indis-tinguishable from zero (−0.003, 95% CI [−0.03, 0.02]). This pattern of no sizable or statistically significant effects of incentives on information source selection continues when we consider the probability of selecting an expert source (column 2), one of the two available mainstream news sources (column 3), or an out-partisan news source (column 4).11 
+
+11In SI Appendix B, we show there are similar results when we examine each party separately. 
+
+In contrast to the evidence of modest partisan cheer-leading for the information items, we observe no change in news choice when incentives are made available. The continued use of copartisan information sources in the incentivized condition suggests that the partisans who use them do not believe the information provided by party-congenial sources is any less accurate than information from nonpartisan or expert sources. As predicted by the motivated reasoning hypothesis, partisans’ news prefer-ences are immune to the effects of financial incentives. 
+
+Comparison with Real-World Media Choice 
+
+A fundamental limitation of survey experimental designs is the generalizability of behavior observed in the ex-perimental context (Barabas and Jerit 2010). For our re-sults, this raises several concerns. First, participants’ news preferences, irrespective of the condition to which they were assigned, may have been influenced by “demand” effects—subtle cues conveyed by the study description or instructions—that may influence party-congenial news selection in both the treatment and control groups (but see Mummolo and Peterson 2019). Second, to the extent partisans know the correct answer to knowledge questions when they enter the survey—and whether they ultimately plan to answer these questions in a sincere manner—they may not need to acquire new information over the course of the survey even when incentivized. This means both the unincentivized and incentivized conditions of our surveys could exaggerate partisans’ tendency to search for information from party-congenial sources relative to their real-world tendency to do so. 
+
+Fortunately, we can draw on the unique nature of our data set to address concerns that the in-survey news selections made over the course of the experiment do not mirror everyday news consumption. A total of 855 of the 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 143 
+
+TABLE 5 Effect of Incentives on Information Source Selection 
+
+Copartisan News Expert Mainstream News Out-Partisan News 
+
+(Intercept) 
+
+0.41∗ 0.37∗ 0.16∗ 0.06∗ 
+
+(0.02) (0.02) (0.02) (0.01) Incentive Treatment −0.00 −0.00 0.01 −0.00 
+
+(0.01) (0.01) (0.01) (0.01) N 11,821 11,821 11,821 11,821 
+
+Note: 
+
+Robust standard errors, clustered by respondent, are in parentheses. Models include item fixed effects and condition on respon-dent partisanship. 
+
+∗p < 
+
+.05. 
+
+respondents in the survey were members of the YouGov Pulse Panel. They had all consented to install a toolbar on their primary desktop web browser that tracked the web-sites they visited in the months prior to these surveys.12 
+
+They received YouGov points for keeping the toolbar ac-tive, but had the option to turn it off if they wished. In general, measures of web traffic collected from this panel resemble those from sources (for other applications in po-litical science, see, e.g., Guess 2019; Peterson, Goel, and Iyengar, forthcoming). 
+
+For this group of respondents, we can compare the news choices they made within the experiment with their normal web-browsing behavior. We emphasize here that our measure only captures web browsing conducted from desktop computers. This misses other forms of media use (e.g., mobile web browsing and cable television consump-tion). We note our evidence cannot speak to the corre-spondence between survey-based and behavioral mea-sures of media exposure in these other settings, which represent a setting for future work. In this case, we proceed using this measure of desktop-based online news expo-sure, as it provides an important supplement to our pre-vious analysis. These data offer the chance to see whether the news choices respondents make within the survey context align with their behavior in an important form of news consumption outside the survey. 
+
+We compare the partisan slant of respondents’ real-world media diet to the partisan slant of the news se-lections they made in our surveys. We characterize the partisan slant of media choices in the experiment as a tri-chotomy, with right-leaning sources scored as 1, the main-stream and expert sources as 0, and left-leaning sources as −1.13 We average this measure across the multiple 
+
+12For recruitment, YouGov employs a consent screen using lan-guage taken from the Market Research Society’s code of conduct. Panelists are informed that their web-browsing behavior will re-main anonymous and that the data will only be used for re-search purposes. 
+
+13We recognize that in public perceptions of their perceived slant and the partisanship of their audiences, the mainstream outlets 
+
+news choices respondents made over the course of the survey. We then compare this indicator of preference for partisan news with the slant that respondents displayed in their everyday browsing behavior. We characterize the partisanship of their web-browsing behavior outside the experimental setting using the “alignment scores” for a set of 452 news websites presented in Bakshy, Messing, and Adamic (2015).14 The alignment scores reflect the parti-sanship of news domains based on the ideology of indi-viduals who shared their content on Facebook. Domains shared more frequently by conservatives receive align-ment scores closer to 1, whereas those offering content shared more frequently by liberals receive scores closer to −1. 
+
+Figure 1 displays the comparison of a respondent’s real-world media slant (the x-axis) to the slant of his or her news selections in the experimental context (the y-axis). Individual observations are shown in gray. We use a loess smoother to plot the relationship between these variables. The dashed line corresponds to a slope of 1, providing a baseline of exact correspondence between the two measures of slant. 
+
+Figure 1 shows that news-seeking behavior within the experiment differs only slightly from news consump-tion in the real world. The correspondence is particularly strong for those with everyday media diets that range from moderate to conservative. For respondents at the other end of the ideological spectrum, the correspon-dence is weaker; those with very liberal real-world me-
+
+we consider (i.e., CNN and the 
+
+New York Times) 
+
+appear similar to the left-leaning news sources (i.e., 
+
+Huffington Post 
+
+and MSNBC). In SI Appendix C.2, we observe similar results using two alterna-tive measures of the partisanship of an individual’s survey-based media choices. 
+
+14The original data contain 500 websites, but for our study we drop non-news sources included in the original data (e.g., Ama-zon, Wikipedia) and websites no longer in operation over the time window we consider. As in Peterson, Goel, and Iyengar (forthcom-ing), we also restrict our analysis of several high-traffic websites that contain both news and non-news content (i.e., Yahoo, MSN, and AOL) to traffic to the news portions of those websites. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+144 ERIK PETERSON AND SHANTO IYENGAR 
+
+FIGURE 1 Partisan Slant of Survey and Real-World News Choice 
+
+−1.0 −0.5 0.0 0.5 1.0 
+
+− 1. 
+
+0 − 
+
+0. 5 
+
+0. 0 
+
+0. 5 
+
+1. 0 
+
+Partisanship of Media Diet (Behavior) 
+
+P ar 
+
+tis an 
+
+sh ip 
+
+ o f M 
+
+ed ia 
+
+ D ie 
+
+t ( S 
+
+ur ve 
+
+y) 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+● 
+
+● 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ ● ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ●● 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+● ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+● ● 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+●● ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+● 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Note: 
+
+Figure 1 shows the strong association between the partisan-ship of a respondent’s online web browsing behavior (x-axis) and the partisanship of the news selections they made in the survey (y-axis). 
+
+dia preferences were less apt to rely on the left-leaning sources available in the experiment. Overall, there is a substantial correlation (.58) between the two measures of partisan slant. Relative to other comparisons of at-titudes or behaviors observed within survey settings and real-world behavior (see, e.g., Bertrand and Mullainathan 2001; Wicker 1969), this represents an impressive degree of correspondence. 
+
+Having validated our measure of news preferences (partisan slant), we turn to the question of whether in-centives strengthen or weaken the partisan divide in news preferences. For this analysis, we calculate the difference between the average media choice for Democrats and the average media choice for Republicans (scaled in terms of the standard deviation of each outcome) for the three rel-evant settings : the unincentivized survey, the incentivized survey condition, and everyday web-browsing behavior. The cheerleading prediction is that the partisan divide in media choice should shrink under incentives and out-side of the survey; the motivated reasoning prediction is that the partisan divide will remain stable across all three settings. We present the results in Table 6. 
+
+As shown in Table 6, partisan differences in news preferences are of similar magnitude across the different settings. These divides prove durable to the presence of incentives and when examined outside the survey envi-ronment. Altogether, we find little evidence that partisans exaggerate their affinity for copartisan news sources in-side surveys relative to the manner in which they typically consume political news outside that context. 
+
+TABLE 6 Partisan Divides in Media Choice by Setting 
+
+Setting Partisan Divide 
+
+Survey + No Incentives 1.24 SD Survey + Incentives 1.30 SD Real-World Media Diet 1.36 SD 
+
+Discussion and Conclusion 
+
+The rise of partisan divides over factual evidence in surveys is readily apparent. But does this trend pose a genuine threat to the democratic process? To understand the scope of the problem—and whether potential reme-dies involve improving measures of beliefs about politics to reduce cheerleading or efforts to correct genuinely held misinformation (see, e.g., Jerit and Zhao 2020; Porter and Wood 2019)—we assessed the relative importance of motivated reasoning and cheerleading as explanations for misinformation. 
+
+Implications for Political Misinformation 
+
+We first discuss the implications of the substantial par-tisan divides over political information. Consistent with the motivated reasoning perspective, our studies indicate that partisans are genuinely committed to the inaccurate beliefs they report in surveys. The threat to democratic functioning posed by polarization is real. The availability of incentives reduced, but did not eliminate, the partisan divide in information. Approximately two-thirds of the initial partisan divide in the unincentivized conditions persisted when we offered respondents the opportunity to earn rewards for correct responses. We observed this pattern for both Democrats and Republicans, depending on the partisan valence of the topic. 
+
+One challenge to the validity of this motivated rea-soning interpretation is that we cannot address the possi-bility that, for some partisans, the “psychic” rewards for cheerleading exceed the monetary rewards available in our studies. This would mean the incentive conditions in our design still contain some degree of insincere cheer-leading. Future research will need to assess the elasticity of survey respondents’ responsiveness to even larger in-centives than those we employ here (for some evidence that larger amounts exert stronger remedial effects, see Bullock et al. 2015). 
+
+Relatedly, there is a need to calibrate incentive levels in these designs to match those individuals face in the real 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 145 
+
+world. Prior studies offer mixed evidence on this point. On the one hand, much political decision making occurs in a context that more closely resembles an unincentivized survey than one in which clear material benefits for ac-curacy are available. A long tradition in political science emphasizes that the material benefits of political partici-pation that accrue to individuals are trivial (Downs 1957), and, absent an express admonition to avoid bias, previ-ous studies find that information processing appears to resemble motivated reasoning (Bolsen, Druckman, and Cook 2014; Prior, Sood, and Khanna 2015). On the other hand, the material incentives for accuracy available in our study are likely weaker than those facing voters who per-ceive substantial societal stakes in an election outcome (Edlin, Gelman, and Kaplan 2007) or feel social pressure to accurately process information (Klar 2014). 
+
+Given the ambiguity over the scale of incentives of-fered in our study versus those that apply naturalisti-cally, we are unable to make claims about the realism of our manipulations. Instead, our primary contribution is to show that partisan divides over a new class of politi-cal information items—those directly related to ongoing political controversies—prove more resistant to incen-tives than the types of information questions previously considered. 
+
+Implications for Political Information Search 
+
+Relative to the findings on misinformation, our evidence concerning information search provides more one-sided support for motivated reasoning. Partisans consulted congenial sources to the same extent whether or not they were incentivized to answer correctly. Moreover, the par-tisan divides in news choice present in the survey were no different from the divides in the same respondents’ ev-eryday news-browsing behavior. Here, we are better able to address concerns about how the survey environment compares to real-world contexts. The ready translation of partisan divides in the survey into web-browsing be-havior outside it suggests that, in terms of their ability to motivate information search, incentives for accuracy are no more pronounced in real-world news use than in the unincentivized survey conditions. 
+
+Methodological Implications 
+
+Finally, while our primary focus has been directed at the motivated reasoning versus cheerleading debate, this 
+
+study also yields two methodological lessons. First, the partisan slant of individuals’ news preferences, as elicited through a set of information-seeking tasks, corresponds to real-world news consumption. Although concerns over inaccurate measures of news exposure are endemic in sur-vey research, particularly when it comes to respondents’ ability to recall accurately the amount of news they en-counter from various platforms (e.g., Guess 2015; Prior 2009), we find that eliciting the partisanship of respon-dents’ news preferences through a series of information-seeking tasks matches well with the preferences revealed in their everyday behavior. 
+
+Second, our modified incentive design also sheds light on the psychological processes underlying the re-medial effects of incentives in surveys. Bullock and Lenz (2019) point out that the impact of incentives on accu-rate survey responses might occur either because respon-dents expend greater effort when asked an information question or due to increased honesty (i.e., incentives dis-courage individuals who know the correct answer from responding incorrectly). Our study addresses this distinc-tion by showing that at the information-search stage, the availability of incentives does not alter respondent interest in information from expert sources. On the assumption that comprehension of information provided by expert sources requires greater effort, this lack of movement in information search is consistent with the interpretation that the mechanism underlying the effects of incentives is not cognitive effort, but honesty, as posited in previous studies of partisan cheerleading. 
+
+In closing, we note this study raises important questions for future research. We have interpreted the magnitude of the partisan information divide and the stability of partisans’ preferences for congenial infor-mation as evidence of motivated reasoning stemming from polarization—the interpretation commonly given in the misinformation literature. However, partisan mo-tives may come into play at different stages of the be-lief formation process, beginning with information re-ception and following through to information accep-tance (see, e.g., the classic description of these stages in McGuire 1985). Partisans’ continued preference for co-partisan news providers, for instance, suggests that the expression of misinformed beliefs may have less to do with selective interpretation of neutral or unbiased in-formation, and more to do with exposure to one-sided or biased information in the first place. Mapping the ef-fects of partisan-motivated reasoning through the stages of belief formation represents a promising agenda for misinformation research. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+146 ERIK PETERSON AND SHANTO IYENGAR 
+
+References 
+
+Almond, Gabriel. 1950. 
+
+The American People and Foreign Policy. 
+
+New York: Harcourt. 
+
+Bakshy, Eytan, Solomon Messing, and Lada Adamic. 2015. “Ex-posure to Ideologically Diverse News and Opinion on Face-book.” 
+
+Science 
+
+348(6239): 1130–32. 
+
+Barabas, Jason, and Jennifer Jerit. 2010. “Are Survey Experi-ments Externally Valid?” 
+
+American Political Science Review 
+
+104(2): 226–42. 
+
+Bartels, Larry M. 2002. “Beyond the Running Tally: Partisan Bias in Political Perceptions.” 
+
+Political Behavior 
+
+24(2): 117– 50. 
+
+Berinsky, Adam. 2017. “Rumors and Health Care Reform: Ex-periments in Political Misinformation.” 
+
+British Journal of Political Science 
+
+47(2): 241–62. 
+
+Berinsky, Adam. 2018. “Telling the Truth about Believing the Lies? Evidence for the Limited Prevalence of Expressive Sur-vey Responding.” 
+
+Journal of Politics 
+
+81(1): 2011–24. 
+
+Bertrand, Marianne, and Sendhil Mullainathan. 2001. “Do Peo-ple Mean What They Say? Implications for Subjective Survey Data.” 
+
+American Economic Review 
+
+91(2): 67–72. 
+
+Bisgaard, Martin. 2015. “Bias Will Find a Way: Economic Per-ceptions, Attributions of Blame, and Partisan-Motivated Reasoning during Crisis.” 
+
+Journal of Politics 
+
+77(3): 849–60. 
+
+Bisgaard, Martin, and Rune Slothuus. 2018. “Partisan Elites as Culprits? How Party Cues Shape Perceptual Gaps.” 
+
+American Journal of Political Science 
+
+62(2): 456–69. 
+
+Bolsen, Toby, James N. Druckman, and Fay Lomax Cook. 2014. “The Influence of Partisan Motivated Reasoning on Public Opinion.” 
+
+Political Behavior 
+
+36(2): 235–62. 
+
+Bullock, John, and Gabriel Lenz. 2019. “Partisan Bias in Sur-veys.” 
+
+Annual Review of Political Science 
+
+22: 325–42. 
+
+Bullock, John, Alan Gerber, Seth Hill, and Gregory Huber. 2015. “Partisan Bias in Factual Beliefs about Politics.” 
+
+Quarterly Journal of Political Science 
+
+10(4): 519–78. 
+
+Delli, Carpini Michael, and Scott Keeter. 1996. 
+
+What Americans Know about Politics and Why It Matters. 
+
+New Haven, CT: Yale University Press. 
+
+Downs, Anthony. 1957. 
+
+An Economic Theory of Democracy. 
+
+New York: Harper. 
+
+Druckman, James N., and Mary C. McGrath. 2019. “The Ev-idence for Motivated Reasoning in Climate Change Prefer-ence Formation.” 
+
+Nature Climate Change 
+
+9(2): 111–19. 
+
+Druckman, James N., Erik Peterson, and Rune Slothuus. 2013. “How Elite Partisan Polarization Affects Public Opinion Formation.” 
+
+American Political Science Review 
+
+107(1): 57– 79. 
+
+Edlin, Aaron, Andrew Gelman, and Noah Kaplan. 2007. “Voting as a Rational Choice: Why and How People Vote to Improve the Well-Being of Others.” 
+
+Rationality and Society 
+
+19(3): 293–314. 
+
+Enns, Peter K., Paul M. Kellstedt, and Gregory E. McAvoy. 2012. “The Political Consequences of Partisanship in Economic Perceptions.” 
+
+Public Opinion Quarterly 
+
+76(2): 287–310. 
+
+Festinger, Leon. 1957. 
+
+A Theory of Cognitive Dissonance. 
+
+Stan-ford, CA: Stanford University Press. 
+
+Flaxman, Seth, Sharad Goel, and Justin M. Rao. 2016. “Filter Bubbles, Echo Chambers and Online News Consumption.” 
+
+Public Opinion Quarterly 
+
+80(S1): 298–320. 
+
+Flynn, D.J., and Yanna Krupnikov. 2019. “Misinformation and the Justification of Socially Undesirable Preferences.” 
+
+Journal of Experimental Political Science 
+
+6(1): 5–16. 
+
+Flynn, D.J., Brendan Nyhan, and Jason Reifler. 2017. “The Na-ture and Origins of Misperceptions.” 
+
+Political Psychology 
+
+38(S1): 127–50. 
+
+Gaines, Brian J., James H. Kuklinski, Paul J. Quirk, Buddy Peyton, and Jay Verkuilen. 2007. “Same Facts, Different In-terpretations: Partisan Motivation and Opinion on Iraq.” 
+
+Journal of Politics 
+
+69(4): 957–74. 
+
+Graham, Matthew. 2020. “Self-Awareness of Political Knowl-edge.” 
+
+Political Behavior 
+
+42(1): 305–26. 
+
+Guess, Andrew. 2015. “Measure for Measure: An Experimental Test of Online Political Media Exposure.” 
+
+Political Analysis 
+
+23(1): 59–75. 
+
+Guess, Andrew. 2019. “(Almost) Everything in Mod-eration: New Evidence on Americans’ Online Me-dia Diets.” Working Paper. https://www.dropbox.com/s/ 4qbn29l0pkpe2oa/Guess_OMD.pdf?dl=0. 
+
+Hochshild, Jennifer, and Katherine Einstein. 2015. “Do Facts Matter? Information and Misinformation in American Pol-itics.” 
+
+Political Science Quarterly 
+
+130(4): 585–624. 
+
+Huber, Gregory A., and Neil Malhotra. 2017. “Political Ho-mophily in Social Relationships: Evidence from Online Dat-ing Behavior.” 
+
+Journal of Politics 
+
+79(1): 269–83. 
+
+Iyengar, Shanto, and Kyu S. Hahn. 2009. “Red Media, Blue Media: Evidence of Ideological Selectivity in Media Use.” 
+
+Journal of Communication 
+
+59(1): 19–39. 
+
+Iyengar, Shanto, Tobias Konitzer, and Kent Tedin. 2018. “The Home as a Political Fortress: Family Agreement in an Era of Polarization.” 
+
+Journal of Politics 
+
+80(4): 1326–38. 
+
+Iyengar, Shanto, Gaurav Sood, and Yphtach Lelkes. 2012. “Af-fect, Not Ideology: A Social Identity Perspective on Polariza-tion.” 
+
+Public Opinion Quarterly 
+
+76(3): 405–31. 
+
+Jerit, Jennifer, and Jason Barabas. 2012. “Partisan Perceptual Bias and the Information Environment.” 
+
+Journal of Politics 
+
+74(3): 672–84. 
+
+Jerit, Jennifer, and Yangzi Zhao. 2020. “Political Misinforma-tion.” 
+
+Annual Review of Political Science 
+
+23: 77–94. 
+
+Kim, Jin Woo, and Eunji Kim. 2019. “Identifying the Effect of Political Rumor Diffusion Using Variations in Survey Tim-ing.” 
+
+Quarterly Journal of Political Science 
+
+14(3): 293–311. 
+
+Klar, Samara. 2014. “Partisanship in a Social Setting.” 
+
+American Journal of Political Science 
+
+58(3): 687–704. 
+
+Kraft, Patrick W., Milton Lodge, and Charles S. Taber. 2015. “Why People ‘Don’t Trust the Evidence’: Motivated Reason-ing and Scientific Beliefs.” 
+
+Annals of the American Academy of Political and Social Science 
+
+658(1): 121–33. 
+
+Kreisberg, Martin. 1949. “Dark Areas of Ignorance.” In 
+
+Public Opinion and Foreign Policy, 
+
+ed. Lester Markel. New York: Harper, 49–64. 
+
+Kuklinski, James H., Paul J. Quirk, Jennifer Jerit, David Schwieder, and Robert F. Rich. 2000. “Misinformation and the Currency of Democratic Citizenship.” 
+
+Journal of Politics 
+
+62(3): 790–816. 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
+
+PARTISAN GAPS IN POLITICAL INFORMATION 147 
+
+Kunda, Ziva. 1990. “The Case for Motivated Reasoning.” 
+
+Psy-chological Bulletin 
+
+108(3), 480–98. 
+
+Levendusky, Matthew. 2010. “Clearer Cues, More Consistent Voters: A Benefit of Elite Polarization.” 
+
+Political Behavior 
+
+32(1): 111–31. 
+
+Lippman, Walter. 1922. 
+
+Public Opinion. 
+
+New York: Harcourt, Brace & Co. 
+
+Lodge, Milton, and Charles S. Taber. 2013. 
+
+The Rationalizing Voter. 
+
+Cambridge: Cambridge University Press. 
+
+Lord, Charles G., Lee Ross, and Mark R. Lepper. 1979. “Biased Assimilation and Attitude Polarization: The Effects of Prior Theories on Subsequently Considered Evidence.” 
+
+Journal of Personality and Social Psychology 
+
+37(11): 2098–2109. 
+
+Mason, Lilliana. 2018. 
+
+Uncivil Agreement: How Politics Became Our Identity. 
+
+Chicago: University of Chicago Press. 
+
+McGrath, Mary C. 2017. “Economic Behavior and the Parti-san Perceptual Screen.” 
+
+Quarterly Journal of Political Science 
+
+11(4): 363–83. 
+
+McGuire, William J. 1985. “Attitudes and Attitude Change.” In 
+
+The Handbook of Social Psychology, 
+
+ed. Gardner Lindzey and Elliot Aronson. New York: Random House, 233–46. 
+
+Mian, Atif, Amir Sufi, and Nasim Khoshkhou. 2017. “Parti-san Bias, Economic Expectations, and Household Spend-ing.” Working Paper. https://faculty.chicagobooth.edu/amir. sufi/research/papers/miansufikhoshkhou_partisanbias.pdf. 
+
+Miller, Joanne M., Kyle L. Saunders, and Christina E. Farhart. 2016. “Conspiracy Endorsement as Motivated Reasoning: The Moderating Roles of Political Knowledge and Trust.” 
+
+American Journal of Political Science 
+
+60(4): 824–44. 
+
+Montgomery, Jacob M., Brendan Nyhan, and Michelle Torres. 2018. “How Conditioning on Posttreatment Variables Can Ruin Your Experiment and What to Do about It.” 
+
+American Journal of Political Science 
+
+62(3): 760–75. 
+
+Mummolo, Jonathan, and Erik Peterson. 2019. “Demand Ef-fects in Survey Experiments: An Empirical Assessment.” 
+
+American Political Science Review 
+
+113(2): 517–29. 
+
+Nyhan, Brendan. 2010. “Why the ‘Death Panel’ Myth Won’t Die.” 
+
+The Forum 
+
+8(1): 1–24. 
+
+Pasek, Josh, Tobias H. Stark, Jon A. Krosnick, and Trevor Tompson. 2015. “What Motivates a Conspiracy Theory? Birther Beliefs, Partisanship, Liberal-Conservative Ideology, and Anti-Black Attitudes.” 
+
+Electoral Studies 
+
+40: 482–89. 
+
+Peterson, Erik, Sharad Goel, and Shanto Iyengar. Forthcoming. “Partisan Selective Exposure in Online News Consumption: Evidence from the 2016 Presidential Campaign.” 
+
+Political Science Research & Methods. 
+
+Porter, Ethan, and Thomas J. Wood. 2019. 
+
+False Alarm: The Truth about Political Mistruths in the Trump Era. 
+
+Cambridge: Cambridge University Press. 
+
+Prior, Markus. 2009. “Improving Media Effects Research through Better Measurement of News Exposure.” 
+
+Journal of Politics 
+
+71(3): 893–908. 
+
+Prior, Markus. 2013. “Media and Political Polarization.” 
+
+Annual Review of Political Science 
+
+16: 101–27. 
+
+Prior, Markus, and Arthur Lupia. 2008. “Money, Time, and Po-litical Knowledge: Distinguishing Quick Recall and Political Learning Skills.” 
+
+American Journal of Political Science 
+
+52(1): 169–83. 
+
+Prior, Markus, Gaurav Sood, and Kabir Khanna. 2015. “You Cannot Be Serious: The Impact of Accuracy Incentives on Partisan Bias in Reports of Economic Perceptions.” 
+
+Quar-terly Journal of Political Science 
+
+10(4): 489–518. 
+
+Roush, Carolyn, and Gaurav Sood. 2019. “A Gap in Our Understanding? Reconsidering the Evidence for Partisan Knowledge Gaps.” Working Paper. https://www.gsood.com/ research/papers/partisan_gap.pdf. 
+
+Schaffner, Brian F., and Samantha Luks. 2018. “Misinformation or Expressive Responding? What an Inauguration Crowd Can Tell Us about the Source of Political Misinformation in Surveys.” 
+
+Public Opinion Quarterly 
+
+82(1): 135–47. 
+
+Schaffner, Brian F., and Cameron Roche. 2017. “Misinforma-tion and Motivated Reasoning: Responses to Economic News in a Politicized Environment.” 
+
+Public Opinion Quarterly 
+
+81(1): 86–110. 
+
+Shapiro, Robert, and Yaeli Bloch-Elkon. 2008. “Do the Facts Speak for Themselves? Partisan Disagreement as a Challenge to Democratic Competence.” 
+
+Critical Review 
+
+20(1–2): 115– 39. 
+
+Stroud, Natalie Jomini. 2011. 
+
+Niche News. 
+
+Oxford: Oxford Uni-versity Press. 
+
+Swire, Briony, Adam J. Berinsky, Stephan Lewandowsky, and Ullrich Ecker. 2017. “Processing Political Misinformation: Comprehending the Trump Phenomenon.” 
+
+Royal Society Open Science 
+
+4(3): 160802. 
+
+Thorson, Emily. 2016. “Belief Echoes: The Persistent Effects of Corrected Misinformation.” 
+
+Political Communication 
+
+33(3): 460–80. 
+
+Vavreck, Lynn, and Shanto Iyengar. 2011. “The Future of Po-litical Communication Research: Online Panels and Experi-mentation.” In 
+
+Oxford Handbook of American Public Opinion and Media, 
+
+ed. George C. Edwards III, Robert Shapiro, and Lawrence Jacobs. Oxford: Oxford University Press, 156–168. 
+
+Wicker, Allan W. 1969. “Attitudes versus Actions: The Relation-ship of Verbal and Overt Behavioral Responses to Attitude Objects.” 
+
+Journal of Social Issues 
+
+25(4): 41–78. 
+
+Supporting Information 
+
+Additional supporting information may be found online in the Supporting Information section at the end of the article. 
+
+Appendix A: 
+
+Survey Information 
+
+Appendix B: 
+
+Supplemental Experimental Analyses 
+
+Appendix C: 
+
+Web Tracking Data 
+
+ 15405907, 2021, 1, D ow 
+
+nloaded from  https://onlinelibrary.w 
+
+iley.com /doi/10.1111/ajps.12535 by M 
+
+alm ad - Israel C 
+
+enter For D igital Inform 
+
+ation Services, W iley O 
+
+nline L ibrary on [04/05/2025]. See the T 
+
+erm s and C 
+
+onditions (https://onlinelibrary.w iley.com 
+
+/term s-and-conditions) on W 
+
+iley O nline L 
+
+ibrary for rules of use; O A 
+
+ articles are governed by the applicable C reative C 
+
+om m 
+
+ 
